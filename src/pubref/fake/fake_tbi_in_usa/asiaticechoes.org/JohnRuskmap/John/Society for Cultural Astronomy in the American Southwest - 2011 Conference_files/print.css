@@ -1,0 +1,74 @@
+/* Styles for print mode. Header, navigation, footer, separators are hidden. */
+@media print {
+
+    body { background: none !important; }
+
+    body .switchToAdminContainer,
+    body .switchToAdminShadowContainer,
+    body #WA_messagePopup,
+    body #idFooterPoweredByWA  {display: none; }
+
+    body #idClipMainContainer *[id$="Corners"]
+    {
+        display: none !important;
+    }
+
+    body #idClipMainContainer .d1,
+    body #idClipMainContainer .d2,
+    body #idClipMainContainer .d3,
+    body #idClipMainContainer .d4,
+    body #idClipMainContainer .d5,
+    body #idClipMainContainer .d6,
+    body #idClipMainContainer .d7,
+    body #idClipMainContainer .d8,
+    body #idClipMainContainer .d9 {
+        background: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body #idMainContainer {
+        background: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body #idMainContainer *[class$="MainContainer"] {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    body #idMainContainer #idContentContainer *[id$="Shadow"]
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    body #idMainContainer .WaPlaceHolder {
+        margin: 0;
+        padding: 0;
+    }
+
+    body #idMainContainer #idHeaderContainer,
+    body #idMainContainer #loginBoxAreaContainer,
+    body #idMainContainer #idHeaderSeparator,
+    body #idMainContainer #idNavigationContainer,
+    body #idMainContainer #idFooterContainer,
+    body #idMainContainer #idFooterSeparator { display: none; }
+
+    body #idMainContainer #idContentContainer,
+    body #idMainContainer #idContentContainer #idPrimaryContentContainer,
+    body #idMainContainer #idPrimaryContentContainer #idPrimaryContentBlock1,
+    body #idMainContainer #idPrimaryContentContainer #idPrimaryContentBlock1 .innerContentBlock {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* for new themes */
+    .menuGadget,
+    .gadgetMenuHorizontal,
+    .gadgetMenuVertical,
+    .loginBox,
+    .loginButton { display: none; }
+}

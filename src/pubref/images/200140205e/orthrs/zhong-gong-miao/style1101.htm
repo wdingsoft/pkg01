@@ -1,0 +1,16 @@
+var baiduScripts=document.getElementsByTagName('script');
+var baiduparam=baiduScripts[baiduScripts.length-1].src;
+function BaiduQueryString(qs){
+var s = baiduparam;
+s=s.replace("?","?&").split("&");
+var re="";
+for(i=1;i<s.length;i++){
+if(s[i].indexOf(qs+"=")==0)
+re=s[i].replace(qs+"=","");}
+return re;}
+var tn=BaiduQueryString("tn");
+if(tn==""){ tn="baidu_unsp"; }
+var ctn=BaiduQueryString("ctn");
+if(ctn==""){ ctn="0"; }
+var styleid=BaiduQueryString("styleid");if(styleid==""){ styleid="1101"; }
+"union";

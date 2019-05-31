@@ -1,0 +1,19 @@
+body
+{
+	background-image: url(/img/jiaguwen_bg.jpg);
+}
+a:link {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:visited {
+	color: #0000FF;
+	text-decoration: none;
+}
+.bor {
+  border-left: 1px inset;
+  border-right: 1px outset;
+  border-top: 1px inset;
+  border-bottom: 1px outset;
+  border-color:Black;
+}

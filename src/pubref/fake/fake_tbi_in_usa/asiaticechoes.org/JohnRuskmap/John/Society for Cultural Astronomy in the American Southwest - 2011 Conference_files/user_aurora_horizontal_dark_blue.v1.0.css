@@ -1,0 +1,130 @@
+/*Wild Apricot legacy styles for compatibility with version 5.0. Begin.*/
+.WaLegacyContentGadget .gadgetContentEditableArea
+{
+  float: left;
+  width: 100%;
+}
+.cnPrimaryContentBlock1Content>DIV
+{
+  padding: 0;
+}
+
+#id_LoginBoxGadget 
+{
+  position: inherit;
+}
+
+.cnPrimaryContentContainer .block .inner
+{
+  padding: 15px;
+}
+
+.cnPrimaryContentBlock1ContentHolder,
+.cnPrimaryContentBlock1Content
+{
+  width: 909px;
+  padding: 0;
+}
+
+.headerContent
+{
+  width: 711px;
+}
+
+.cnPrimaryContentBlock1Content DIV.publicWizardContainer H1.pageTitle
+{
+  padding: 0 0 1.00em 0;
+}
+
+#id_LoginBoxGadget .loginContainer 
+{
+  position: absolute;
+  top: 21px;
+  right: 17px;
+  width: 200px;
+  height: 150px;
+  z-index: 33003;
+}
+
+.cnFooterContainer, DIV.footerContentHolder, .cnFooterContainerTopCorners.cornersContainer div.c1, .cnFooterContainerBottomCorners.cornersContainer div.c1 
+{
+	 background-color: #660000;
+}
+
+.footerContent, .footerContent TD, .footerContent P 
+{
+	 color: #cc6633;
+}
+
+.cnPrimaryContentBlock1Content A, .cnPrimaryContentBlock1Content A:link, .cnPrimaryContentBlock1Content A:active, .cnPrimaryContentBlock1Content A:visited 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content A:hover 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H1 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H1.contStyleExcHeadingColored 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H2 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H2.contStyleExcHeadingColored 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H3 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H3.contStyleExcHeadingColored 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H4 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content H4.contStyleExcHeadingColored 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content SPAN.contStyleExcInlineColored1 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content SPAN.contStyleExcInlineColored2 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content SPAN.contStyleExcInlineHighlighted 
+{
+	 color: #660000;
+}
+
+.cnPrimaryContentBlock1Content, .cnPrimaryContentBlock1Content TD, .cnPrimaryContentBlock1Content P 
+{
+	 color: #660000;
+}
+
+/*Wild Apricot legacy styles for compatibility with version 5.0. End.*/
+

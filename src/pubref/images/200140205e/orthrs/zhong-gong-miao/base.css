@@ -1,0 +1,237 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-STYLE: normal; FONT-FAMILY: verdana, "??"; BACKGROUND: #fff; COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+EM {
+	FONT-STYLE: normal
+}
+B {
+	FONT-STYLE: normal
+}
+I {
+	FONT-STYLE: normal
+}
+P {
+	LINE-HEIGHT: 1.25em
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:link {
+	
+}
+A:visited {
+	
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A:active {
+	TEXT-DECORATION: underline
+}
+A.on:hover {
+	TEXT-DECORATION: none
+}
+A.cur:hover {
+	TEXT-DECORATION: none
+}
+.on A:hover {
+	TEXT-DECORATION: none
+}
+.cur A:hover {
+	TEXT-DECORATION: none
+}
+.color_red {
+	COLOR: #f00
+}
+A.color_red {
+	COLOR: #f00
+}
+.color_red A {
+	COLOR: #f00
+}
+.color_green {
+	COLOR: #0f0
+}
+A.color_green {
+	COLOR: #0f0
+}
+.color_green A {
+	COLOR: #0f0
+}
+.color_blue {
+	COLOR: #00f
+}
+A.color_blue {
+	COLOR: #00f
+}
+.color_blue A {
+	COLOR: #00f
+}
+.color_gray {
+	COLOR: #555
+}
+A.color_gray {
+	COLOR: #555
+}
+.color_gray A {
+	COLOR: #555
+}
+.fs_14 {
+	FONT-SIZE: 14px
+}
+.fs_14 A {
+	FONT-SIZE: 14px
+}
+.fs_12 {
+	FONT-SIZE: 12px
+}
+.fs_12 A {
+	FONT-SIZE: 12px
+}
+.ff_eng {
+	
+}
+.ff_eng A {
+	
+}
+.ff_ch {
+	
+}
+.ff_ch A {
+	
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL:after {
+	LINE-HEIGHT: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px; CONTENT: "."
+}
+OL:after {
+	LINE-HEIGHT: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px; CONTENT: "."
+}
+.hide {
+	DISPLAY: none
+}
+HR {
+	DISPLAY: none
+}
+.hr {
+	LINE-HEIGHT: 0px; MARGIN: 3px 0px; BACKGROUND: url(img/dot_h_1.gif) repeat-x left top; HEIGHT: 1px; FONT-SIZE: 0px
+}
+.vspace {
+	LINE-HEIGHT: 0px; WIDTH: 99%; HEIGHT: 5px; CLEAR: both; FONT-SIZE: 0px
+}
+.vspace_h20 {
+	LINE-HEIGHT: 0px; WIDTH: 99%; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}
+.hspace {
+	LINE-HEIGHT: 0px; WIDTH: 5px; FLOAT: left; FONT-SIZE: 0px
+}
+BODY .l {
+	FLOAT: left; CLEAR: none
+}
+BODY .left {
+	FLOAT: left; CLEAR: none
+}
+BODY .r {
+	FLOAT: right; CLEAR: none
+}
+BODY .right {
+	FLOAT: right; CLEAR: none
+}
+BODY .c {
+	TEXT-ALIGN: center
+}
+BODY .c {
+	TEXT-ALIGN: center
+}
+#page_bar {
+	CLEAR: both
+}
+#page_head {
+	CLEAR: both
+}
+#page_body {
+	CLEAR: both
+}
+#page_bottom {
+	CLEAR: both
+}
+#page_bottom {
+	PADDING-BOTTOM: 8px
+}
+.clear_float {
+	LINE-HEIGHT: 1px; HEIGHT: 1px; CLEAR: both; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+.clear {
+	LINE-HEIGHT: 1px; HEIGHT: 1px; CLEAR: both; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+BODY #page_body IMG.no_border {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}

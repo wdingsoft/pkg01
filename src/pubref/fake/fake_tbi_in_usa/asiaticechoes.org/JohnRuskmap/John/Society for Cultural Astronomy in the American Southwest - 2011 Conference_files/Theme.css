@@ -1,0 +1,3456 @@
+/************************************************************************/
+/******* THEME NAME: Aurora - Horizontal - Dark Blue ********************/
+/*******                                                          *******/
+/******* *************************************                    *******/
+/******* Overlaying styles in the file                            *******/
+/******* you can easily change visual design of the website theme *******/
+/************************************************************************/
+
+/*******************************************************************/
+/******* COMMON STYLES                                       *******/
+/*******************************************************************/
+
+BODY
+{
+	background-color: #FFFFFF;
+/	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-body-ie6.png', sizingMethod='crop');	
+	font-size: 0.80em;
+	font-weight: normal;
+}
+
+HTML > BODY
+{
+	filter: none;
+	background: #FFFFFF url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-body.png) left top repeat-X;
+}
+
+BODY.printContentView
+{
+	background: none;
+	filter: none;
+}
+
+HTML > BODY.printContentView
+{
+	background: none;
+	filter: none;
+}
+
+/******* Main font styles *******/
+
+BODY, TD, P, H1, H2, H3, H4, H5, H6
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #000000;
+}
+
+H1, H2, H3, H4, H5, H6
+{
+	font-weight: bold;
+}
+
+H1
+{
+	font-size: 1.85em;
+}
+
+H2
+{
+	font-size: 1.60em;
+}
+
+H3
+{
+	font-size: 1.35em;
+}
+
+H4
+{
+	font-size: 1.10em;
+}
+
+H5
+{
+	font-size: 1.05em;
+}
+
+H6
+{
+	font-size: 1.00em;
+}
+
+P:first-child, 
+H1:first-child, 
+H2:first-child, 
+H3:first-child, 
+H4:first-child,
+H5:first-child,
+H6:first-child
+{
+	margin-top: 0;
+}
+
+A, A:link, A:active, A:visited
+{
+	color: #2253E7;
+}
+
+A:hover
+{
+	color: #4C79FF;
+}
+
+/*******************************************************************/
+/******* Extra font styles                                   *******/
+/*******************************************************************/
+
+
+
+H1.pageTitle,
+.cnPrimaryContentBlock1Content H1.pageTitle
+{
+	font-size: 1.35em;/*##1.6em##*/
+}
+
+.cnPrimaryContentBlock1Content H2.pageSubTitle,
+.cnPrimaryContentBlock1Content H2.stepTitle
+{
+	font-size: 1.10em;
+}
+
+H1.contStyleExcHeadingColored,
+H2.contStyleExcHeadingColored,
+H3.contStyleExcHeadingColored,
+H4.contStyleExcHeadingColored,
+H5.contStyleExcHeadingColored,
+H6.contStyleExcHeadingColored
+{
+	color: #000B84;
+}
+SPAN.contStyleExcInlineColored1,
+p.contStyleExcInlineColored1
+{
+	color: #000B84;
+}
+SPAN.contStyleExcInlineColored2,
+p.contStyleExcInlineColored2
+{
+	color: #8289D7;
+}
+SPAN.contStyleExcInlineColored3,
+p.contStyleExcInlineColored3
+{
+	color: #000000;
+}
+SPAN.contStyleExcInlineHighlighted,
+p.contStyleExcInlineHighlighted
+{
+	background-color: #D8DAEC;
+}
+SPAN.contStyleExcInlineLarger,
+p.contStyleExcInlineLarger
+{
+	font-size: 120%;
+}
+SPAN.contStyleExcInlineSmaller,
+p.contStyleExcInlineSmaller
+{
+	font-size: 85%;
+}
+
+blockquote.quotedText
+{
+    background-color: #DFE1FF;
+    border-left: 3px solid #000B84;
+    margin: 0;
+    padding: 5px 5px 5px 8px;
+}
+
+/*******************************************************************/
+/******* Main content container                              *******/
+/*******************************************************************/
+
+.cnClipMainContainer .d8
+{
+	padding-top: 30px;
+}
+
+.cnClipMainContainer .d8 .d8
+{
+	padding-top: 0;
+}
+
+.cnMainContainer
+{
+	height: auto;
+}
+
+.cnMainContainer,
+.cnMainContainerTopCorners.cornersContainer,
+.cnMainContainerBottomCorners.cornersContainer
+{
+	width: 975px;
+	display: block;
+	/*margin: 0;*/
+	margin: 0 auto;
+	position: relative;
+	float: none;
+}
+
+.cnMainContainerTopCorners.cornersContainer,
+.cnMainContainerBottomCorners.cornersContainer
+{
+  /position: static;
+  -position: relavite;
+}
+
+.widgetMode .cnMainContainer,
+.widgetMode .cnMainContainerTopCorners.cornersContainer,
+.widgetMode .cnMainContainerBottomCorners.cornersContainer
+{
+	width: 975px;
+}
+
+.cnMainContainerTopCorners.cornersContainer .topCorners,
+.cnMainContainerBottomCorners.cornersContainer .bottomCorners
+{
+	display: block;
+	height: 2px;
+	width: 955px;
+	padding: 0 10px;
+}
+.widgetMode .cnMainContainerTopCorners.cornersContainer .topCorners,
+.widgetMode .cnMainContainerBottomCorners.cornersContainer .bottomCorners
+{
+	width: 955px;
+}
+
+.cnMainContainerTopCorners.cornersContainer .c1,
+.cnMainContainerBottomCorners.cornersContainer .c1
+{
+	display: block;
+	background-color: #FFFFFF;
+	margin: 0 1px;
+}
+
+.cnMainContainerTopCorners.cornersContainer .c2,
+.cnMainContainerBottomCorners.cornersContainer .c2
+{
+	display: block;
+	background-color: #FFFFFF;
+	margin: 0 0;	
+	height: 2px;
+}
+
+.cnMainContainerTopCorners.cornersContainer .c3,
+.cnMainContainerBottomCorners.cornersContainer .c3,
+.cnMainContainerTopCorners.cornersContainer .c4,
+.cnMainContainerBottomCorners.cornersContainer .c4,
+.cnMainContainerTopCorners.cornersContainer .c5,
+.cnMainContainerBottomCorners.cornersContainer .c5
+{
+	display: none;
+}
+
+.cnMainContainerTopCorners.cornersContainer
+{
+	height: 3px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-top.png', sizingMethod='crop');
+	padding-top: 7px;
+}
+
+body.widgetMode .cnMainContainerTopCorners.cornersContainer
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-top.png', sizingMethod='crop');
+}
+
+HTML > BODY .cnMainContainerTopCorners.cornersContainer
+{
+	filter: none;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-top.png) top left no-repeat;
+}
+
+HTML > BODY.widgetMode .cnMainContainerTopCorners.cornersContainer
+{
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-top.png) top left no-repeat;
+}
+
+.cnMainContainerBottomCorners.cornersContainer
+{
+	height: 3px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-bottom.png', sizingMethod='crop');	
+	padding-bottom: 7px;	
+}
+
+body.widgetMode .cnMainContainerBottomCorners.cornersContainer
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-bottom.png', sizingMethod='crop');	
+}
+
+HTML > BODY .cnMainContainerBottomCorners.cornersContainer
+{
+	filter: none;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-bottom.png) top left no-repeat;
+}
+
+HTML > BODY.widgetMode .cnMainContainerBottomCorners.cornersContainer
+{
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main-bottom.png) top left no-repeat;
+}
+
+.cnMainContainer .d4MainContainer,
+.cnMainContainer .d5MainContainer,
+.cnMainContainer .d6MainContainer,
+.cnMainContainer .d7MainContainer,
+.cnMainContainer .d8MainContainer,
+.cnMainContainer .d9MainContainer
+{
+	float: left;
+}
+
+
+.cnMainContainer .d8MainContainer
+{
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main.png', sizingMethod='scale');
+	padding: 0 10px;
+}
+
+.widgetMode .cnMainContainer .d8MainContainer
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main.png', sizingMethod='scale');
+}
+
+HTML > BODY .cnMainContainer .d8MainContainer
+{
+	filter: none;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main.png) top left repeat-Y;	
+}
+
+HTML > BODY.widgetMode .cnMainContainer .d8MainContainer
+{
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-main.png) top left repeat-Y;	
+}
+
+
+
+.cnMainContainer .d9MainContainer
+{
+	width: 941px;
+	padding: 6px 7px;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+.widgetMode .cnMainContainer .d9MainContainer
+{
+	width: 941px; 
+}
+
+
+
+BODY.customizeContentView
+{
+	filter: none;
+	background: none;
+	padding-top: 0;
+}
+
+BODY.customizeContentView .cnMainContainer .d8MainContainer,
+BODY.customizeContentView .cnMainContainer .d9MainContainer
+{
+	filter: none;
+	background: none;
+}
+
+BODY.customizeContentView .cnMainContainerTopCorners.cornersContainer,
+BODY.customizeContentView .cnMainContainerBottomCorners.cornersContainer
+{
+	filter: none;
+	background: none;
+	display: none;
+}
+
+HTML > BODY.customizeContentView
+{
+	filter: none;
+	background: none;
+}
+
+HTML > BODY.customizeContentView  .cnMainContainer .d8MainContainer
+{
+	filter: none;
+	background: none;
+}
+HTML > BODY.customizeContentView  .cnMainContainer .d9MainContainer
+{
+	filter: none;
+	background: none;
+}
+HTML > BODY.customizeContentView .cnMainContainerTopCorners.cornersContainer
+{
+	filter: none;
+	background: none;
+	display: none;
+}
+
+HTML > BODY.customizeContentView .cnMainContainerBottomCorners.cornersContainer
+{
+	filter: none;
+	background: none;
+	display: none;
+}
+
+
+
+/*******************************************************************/
+/******* HEADER                                              *******/
+/*******************************************************************/
+
+.cnHeaderContainer
+{
+	background: #3E4D55;
+	width: 925px;
+	
+	padding: 8px 0 0 16px;
+}
+
+
+/******* Header containers for applying background *******/
+
+.cnHeaderContainer .d3HeaderContainer,
+.cnHeaderContainer .d4HeaderContainer
+{
+	width: 919px;
+	float: right;
+	padding: 0;
+}
+
+.cnHeaderContainer .d3HeaderContainer
+{
+	background: #FFFFFF none;
+	padding: 6px 0 6px 6px;  
+}
+
+.headerContentHolder
+{
+	background: url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-header.gif) left top no-repeat;
+}
+
+.cnHeaderContainerTopCorners.cornersContainer
+{
+	display: block;
+	height: 1px;
+	width: 941px;
+}
+
+.cnHeaderContainerTopCorners.cornersContainer .c1
+{
+	display: block;
+	margin: 0 1px;
+	background-color: #3E4D55;
+}
+
+.cnHeaderContainerTopCorners.cornersContainer .c2,
+.cnHeaderContainerTopCorners.cornersContainer .c3,
+.cnHeaderContainerTopCorners.cornersContainer .c4,
+.cnHeaderContainerTopCorners.cornersContainer .c5
+{
+	display: none;
+}
+
+
+
+/******* Default logo container *******/
+
+#idHeaderLogo 
+{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	z-index: 1;
+}
+
+/******* Default organization name container *******/
+
+#idHeaderAssociationName 
+{
+	position: absolute;
+	top: 55px;
+	right: 0px;
+	z-index: 2;
+	font-size: 175%;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+/******* Editable header region container *******/
+/******* (Specify default background color for editable region below) *******/
+
+.header_headerContent
+{
+	width: 919px;
+
+}
+
+/******* Header and content separator container *******/
+
+.cnHeaderSeparator
+{
+	display: none;
+	visibility: visible;
+}
+
+/*******************************************************************/
+/******* LOGIN BOX                                           *******/
+/*******************************************************************/
+
+/******* Styles to move login box on top right corner *******/
+
+.loginContainer
+{
+min-width: 200px;
+	background-color: transparent;
+
+	font-size: 0.85em;
+}
+
+.loginContainerTopCorners.cornersContainer,
+.loginContainerBottomCorners.cornersContainer
+{
+	display: none;
+	height: 1px;
+}
+
+.loginContainerTopCorners.cornersContainer .c1,
+.loginContainerBottomCorners.cornersContainer .c1
+{
+	display: block;
+	margin: 0 1px;
+	background-color: transparent;
+}
+
+.loginContainerTopCorners.cornersContainer .c2,
+.loginContainerBottomCorners.cornersContainer .c2,
+.loginContainerTopCorners.cornersContainer .c3,
+.loginContainerBottomCorners.cornersContainer .c3,
+.loginContainerTopCorners.cornersContainer .c4,
+.loginContainerBottomCorners.cornersContainer .c4,
+.loginContainerTopCorners.cornersContainer .c5,
+.loginContainerBottomCorners.cornersContainer .c5
+{
+	display: none;
+}
+
+.loginContainer .d6,
+.loginContainer .d7,
+.loginContainer .d2,
+.loginContainer .d9,
+.loginContainer .d8,
+.loginContainer .d3,
+.loginContainer .d2,
+.loginContainer .d1
+{
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.loginContainer .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .loginContainer .inner
+{
+	padding: 25px 0;
+	min-height: 100px;
+	background: none;	
+}
+
+.loginContainer .inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .loginContainer .inner .inner
+{
+	padding: 0;
+}
+
+.loginContainer .loginData
+{
+	width: auto;
+}
+
+.loginContainer A
+{
+	font-size: 1em;
+}
+
+.loginContainer A,
+.loginContainer A:active,
+.loginContainer A:visited,
+.loginContainer A:link
+{
+	color: #B0B0B0;
+}
+.loginContainer A:hover
+{
+	color: #A0A0A0;
+}
+
+.loginContainer .loginUserNameLabel,
+.loginContainer .loginPasswordLabel
+{
+	width: 68px;
+	height: 20px;
+	float: left;
+	padding: 0 8px 0 0;
+}
+
+.loginContainer .loginUserNameLabel LABEL,
+.loginContainer .loginPasswordLabel LABEL
+{
+	display: block;
+	width: auto;
+	text-align: right;
+	color: #FFFFFF;
+	margin-top: 3px;
+	font-size: 1em;
+}
+
+
+.loginContainer .loginUserName,
+.loginContainer .loginPassword
+{
+	width: 100%;
+	height: 20px;
+	margin-bottom: 5px;  
+	clear: both;
+	float: left;
+	padding: 0;
+}
+
+.loginContainer .loginUserNameTextBox,
+.loginContainer .loginPasswordTextBox
+{
+	display: block;
+	float: left;
+	width: 52%;
+}
+.loginContainer .loginUserName INPUT,
+.loginContainer .loginPassword INPUT
+{
+	display: block;
+	width: 100%;
+	height: 16px;
+	border: 1px solid #D0D0D0;
+	font-size: 1em;
+}
+.loginContainer .loginActionRememberMe
+{
+	display: block;
+	clear: both;
+	padding-left: 72px;
+	color: #FFFFFF;
+}
+.loginContainer .loginActionRememberMe LABEL
+{
+	color: #FFFFFF;
+	position: relative;
+	top: -2px;
+	font-size: 1em;
+}
+.loginContainer .loginAction
+{
+	display: block;
+	width: 50px;
+	float: left;
+	padding-left: 75px;
+}
+
+.loginContainer .loginAction,
+.loginContainer .loginPasswordForgot
+{
+	float: left;
+	height: 30px;
+}
+
+.loginContainer .loginPasswordForgot
+{
+	padding-top: 3px;
+	padding-left: 5px;
+	width: 70px;
+	width: 70px;
+}
+
+.cnFooterContainer .loginContainer .loginPasswordForgot A
+{
+color: #fff;
+}
+
+.loginContainer .loginPasswordForgot A
+{
+	font-weight: normal;
+	font-size: 1em;
+	color: #B0B0B0;
+	float: left;
+}
+
+.loginContainer .loginPasswordForgot A:hover
+{
+	color: #A0A0A0;
+}
+
+.loginContainer .loginAction INPUT
+{
+	vertical-align: bottom;
+	font-size: 1em;
+}
+.loginContainer .loginAction INPUT.loginButton
+{
+	display: block;
+	padding: 3px 5px 4px 5px;
+/	padding: 3px 2px 4px 2px;  
+	margin-left: -1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.loginContainer .loginAction SPAN
+{
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	vertical-align: bottom;
+}
+.loginContainer .loginAction SPAN LABEL
+{
+	color: #FFFFFF;
+	position: relative;
+	padding-right: 2px;
+	vertical-align: bottom;
+}
+.loginContainer .loginAction SPAN INPUT
+{
+	position: relative;
+	bottom: -3px;
+}
+.loginContainer .loggedName SPAN
+{
+	color: #FFFFFF;
+	display: block;
+	width: auto;
+	margin-bottom: 5px;
+	padding-right: 25px;
+	padding-top: 5px;
+	text-align: right;
+	font-size: 1em;
+}
+.loginContainer .profileBox
+{
+	display: block;
+	width: auto;
+	margin-bottom: 5px;
+	padding-right: 25px;
+	text-align: right;
+}
+.loginContainer .loggedAction A
+{
+	display: block;
+	width: auto;
+	margin-bottom: 5px;
+	padding-right: 25px;
+	text-align: right;
+	font-weight: bold;
+}
+
+/*******************************************************************/
+/******* MENU                                                *******/
+/*******************************************************************/
+
+/******* Menu container *******/
+
+.mainMenuContainer
+{
+	display: block;
+	float: left;
+	width: 941px;
+	height: auto;
+	background-color: transparent;
+	padding: 0 0 6px;
+	margin-top: 0;
+	position: relative;
+	z-index: 333;
+}
+
+
+
+.mainMenu .mainMenu0BottomCorners
+{
+	display: block;
+	height: 8px;
+	margin: 0;
+	width: 941px;
+	background: transparent;
+}
+
+.mainMenu .mainMenu0BottomCorners .c5
+{
+	display: block;
+	margin: 0;
+	background-color: #3E4D55;
+	height: 7px;
+}
+
+.mainMenu .mainMenu0BottomCorners .c4
+{
+	display: block;
+	margin: 0 1px;
+	background-color: #3E4D55;
+}
+
+.mainMenu .mainMenu0BottomCorners .c3,
+.mainMenu .mainMenu0BottomCorners .c2,
+.mainMenu .mainMenu0BottomCorners .c1
+{
+	display: none;
+}
+
+.mainMenuContainer .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenuContainer .inner
+{
+	padding: 0;
+}
+.mainMenuContainer .inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenuContainer .inner .inner
+{
+	padding: 0;
+}
+
+
+
+.mainMenu
+{
+	margin: 0;  
+	float: left;
+	width: 941px;  
+	height: auto;
+	background-color: transparent;
+	position: relative;
+}
+
+.mainMenuInner
+{
+	float: left;
+	margin: 0;
+	padding: 0 16px;
+	width: 909px;
+	height: auto;
+	font-size: 1em;
+	position: relative;
+	background-color: #3E4D55;
+	z-index: 1010;
+}
+
+.mainMenu .menuLevel1 
+{
+	clear: both;
+	height: auto;
+	margin: 0;
+	background-color: transparent;
+	font-size: 1em;
+}
+
+.mainMenu,
+.mainMenu .menuLevel1
+{
+	font-style: normal; 
+	border: none;
+	border-collapse: collapse;    
+	clear: both;
+	padding: 0;
+}
+
+.mainMenu .menuLevel1
+{
+	background-color: #3E4D55;
+}
+
+.mainMenu .menuLevel1
+{
+	clear: both;
+	width: auto;
+	height: 30px;
+	margin: 0;
+	background: none;
+	font-size: 1em;
+	background: none;
+}
+
+.mainMenu,
+.mainMenu .menuLevel1
+{
+	font-style: normal; 
+	border: none;
+	border-collapse: collapse;    
+	clear: both;
+	padding: 0;
+}
+
+.mainMenu td
+{
+	height: 29px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.mainMenu table.dynamic td
+{
+	height: auto;
+}
+ 
+.mainMenu .menuLevel1 td
+{
+	vertical-align: top;
+	position: relative;
+}
+
+.mainMenu .menuLevel1 td.separator
+{
+	display: none;
+}
+
+.mainMenu .menuLevel1 td.separator SPAN
+{
+	display: none;
+}
+
+.mainMenu td.itemNormal .d5
+{
+	width: 100%;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-closed-l1-white.gif) right center no-repeat;
+}
+.mainMenu td.itemCurrent .d5,
+.mainMenu td.itemCurrentParent .d5
+{
+	width: 100%;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-opened-l1-black.gif) right center no-repeat;
+}
+
+
+.mainMenu .menuLevel1 td.itemCurrent .c1,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .c1,
+.mainMenu .menuLevel1 td.itemCurrentParent .c1
+{
+	display: block;
+	margin: 0 1px;
+	background-color: #FFFFFF;
+}
+
+.mainMenu .menuLevel1 td.itemCurrent .c2,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .c2,
+.mainMenu .menuLevel1 td.itemCurrentParent .c2,
+.mainMenu .menuLevel1 td.itemCurrent .c3,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .c3,
+.mainMenu .menuLevel1 td.itemCurrentParent .c3,
+.mainMenu .menuLevel1 td.itemCurrent .c4,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .c4,
+.mainMenu .menuLevel1 td.itemCurrentParent .c4,
+.mainMenu .menuLevel1 td.itemCurrent .c5,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .c5,
+.mainMenu .menuLevel1 td.itemCurrentParent .c5
+{
+	display: none;
+}
+
+.mainMenu .menuLevel1 td .cornersContainer
+{
+	display: block;
+	height: 1px;
+}
+
+.mainMenu .menuLevel1 td ul.dynamic .cornersContainer
+{
+  display: none;
+}
+
+.mainMenu .menuLevel1 td.itemNormal .bottomCornersContainer,
+.mainMenu .menuLevel1 td.itemNormalLeaf .bottomCornersContainer
+{
+	visibility: hidden;
+}
+ 
+.mainMenu .menuLevel1 td .topCornersContainer
+{
+	display: none;
+}
+
+.mainMenu .menuLevel1 td .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenu .menuLevel1 td .inner
+{
+	position: relative;
+  padding: 8px 15px;
+  float: left;
+}
+
+.mainMenu .menuLevel1 td .inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenu .menuLevel1 td .inner .inner
+{
+	position: static;
+  padding: 0;
+  float: none;
+}
+
+.mainMenu .menuLevel1 td.itemCurrent .d1,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .d1,
+.mainMenu .menuLevel1 td.itemCurrentParent .d1
+{
+	background-color: #FFFFFF;	
+}
+
+.mainMenu .menuLevel1 td.itemCurrent .d1 .d1,
+.mainMenu .menuLevel1 td.itemCurrentLeaf .d1 .d1,
+.mainMenu .menuLevel1 td.itemCurrentParent .d1 .d1
+{
+	background-color: #FFFFFF;	
+}
+
+.mainMenu .menuLevel1 td .d1
+{
+	height: 100%;
+  float: left;
+}
+
+.mainMenu .menuLevel1 td .d1 .d1
+{
+  float: none;
+  height: auto;
+}
+
+.mainMenu .menuLevel1 td A,
+.mainMenu .menuLevel1 td A:link,
+.mainMenu .menuLevel1 td A:active,
+.mainMenu .menuLevel1 td A:visited,
+.mainMenu .menuLevel1 td A:hover,
+.mainMenu .menuLevel1 td SPAN SPAN
+{
+	display: block;
+	height: auto;
+	margin: 0;
+  padding: 0;
+	font-size: 0.85em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none; 
+	text-transform: none;
+	float: none;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.mainMenu .menuLevel1 A,
+.mainMenu .menuLevel1 A:link,
+.mainMenu .menuLevel1 A:active,
+.mainMenu .menuLevel1 A:visited
+{
+	cursor: pointer;
+	cursor: hand;  
+}
+
+.mainMenu .menuLevel1 td SPAN 
+{
+	cursor: default;
+}
+
+.mainMenu .menuLevel1 td A,
+.mainMenu .menuLevel1 td A:link,
+.mainMenu .menuLevel1 td A:active,
+.mainMenu .menuLevel1 td A:visited
+{
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+.mainMenu .menuLevel1 td.itemCurrentParent A,
+.mainMenu .menuLevel1 td.itemCurrentParent A:link,
+.mainMenu .menuLevel1 td.itemCurrentParent A:active,
+.mainMenu .menuLevel1 td.itemCurrentParent A:visited,
+.mainMenu .menuLevel1 td SPAN SPAN
+{
+	background-color: transparent;
+	color: #3E4D55;
+}
+
+.mainMenu .menuLevel1 td A:hover,
+.mainMenu .menuLevel1 td.itemNormal:hover A,
+.mainMenu .menuLevel1 td.itemCurrentParent A:hover
+{
+	background-color: transparent;
+	color: #797FC0;
+}
+
+.mainMenu .menuLevel1 TD.itemNormal .d5
+{
+	width: 100%;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-closed-l2-white.gif) right center no-repeat;
+	float: left;
+}
+.mainMenu .menuLevel1 TD.itemCurrent .d5,
+.mainMenu .menuLevel1 TD.itemCurrentParent .d5
+{
+	width: 100%;
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-opened-l2-black.gif) right center no-repeat;
+	float: left;  
+}
+
+/******* System icons on the 1st menu level items *******/
+
+.mainMenuContainer .mainMenu .mainMenuPublicHiddenIcon
+{
+  -moz-opacity: 0.50;
+  -khtml-opacity: 0.50;
+  opacity: 0.50;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  background-position: left top;
+}
+
+.mainMenuContainer .mainMenu .mainMenuPublicHiddenIcon
+{
+  left: 15px;
+}
+.mainMenuContainer .mainMenu UL.dynamic LI .mainMenuPublicHiddenIcon
+{
+  left: 15px;
+}
+
+.mainMenuContainer .mainMenu .mainMenuPublicHiddenIcon.after
+{
+	display: none;
+}
+
+/******* MENU LEVEL 2 *******/
+
+.mainMenuContainer .menuLevel2Outer
+{
+	margin: -8px 0 0 14px;
+/	margin: -8px 0 0 7px;	
+	background: #3E4D55;
+	border: 2px solid #FFFFFF;
+	position: relative;
+	float: left;
+	width: 909px;
+	z-index: 1000;
+}
+
+HTML > BODY .mainMenuContainer .menuLevel2Outer
+{
+	margin: -8px 0 0 14px;
+}
+
+.mainMenuContainer .menuLevel2
+{
+	float: left;
+	position: relative;
+}
+
+.mainMenuContainer .menuLevel2Inner
+{
+	float: left;
+	width: 909px;
+}
+
+.mainMenuContainer .menuLevel2Inner .d1,
+.mainMenuContainer .menuLevel2Inner .d3
+{
+	float: left;
+	width: 909px;
+	position: relative;
+}
+
+.mainMenuContainer .menuLevel2Inner .d2
+{
+	float: left;
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-submenu.png', sizingMethod='crop');
+}
+
+HTML > BODY .mainMenuContainer .menuLevel2Inner .d2
+{
+	filter: none;
+	background: url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-submenu.png) left top no-repeat;
+}
+
+.mainMenuContainer .menuLevel2Inner .d1 .d1,
+.mainMenuContainer .menuLevel2Inner .d3 .d3
+{
+	float: none;
+	width: auto;
+	height: auto;
+	position: static;
+}
+
+.mainMenuContainer .menuLevel2Inner .d2 .d2
+{
+	float: none;
+	filter: none;
+}
+
+HTML > BODY .mainMenuContainer .menuLevel2Inner .d2 .d2
+{
+	background: none;
+}
+
+.mainMenuContainer .menuLevel2Inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenuContainer .menuLevel2Inner .inner
+{
+	position: relative;
+	padding: 0 14px;
+}
+
+.mainMenuContainer .menuLevel2Inner .inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenuContainer .menuLevel2Inner .inner .inner
+{
+	position: static;
+	padding: 0;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item
+{
+	padding: 0;
+	float: left;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.separator
+{
+	width: 22px;
+	height: 1px;
+	display: none;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item SPAN
+{
+	padding: 0;
+}
+
+.mainMenuContainer .menuLevel2 SPAN SPAN
+{
+	font-size: 1.0em;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item SPAN SPAN,
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A
+{
+  display: block;
+  font-size: 0.85em;
+  white-space: nowrap;
+	padding: 7px 21px;
+  height: 16px;
+/	width: 1%;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A
+{
+	text-decoration: none;
+	font-weight: normal;	
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A,
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A:link,
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A:active,
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A:visited
+{
+	color: #B5B8EB;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item SPAN A:hover,
+.mainMenuContainer .menuLevel2 SPAN.item:hover SPAN A
+{
+	color: #797FC0;
+	background: transparent;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.item SPAN SPAN
+{
+	color: #FFFFFF;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.itemNormal
+{
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-closed-l2-white.gif) no-repeat scroll right center;
+}
+
+.mainMenuContainer .menuLevel2 SPAN.itemCurrent,
+.mainMenuContainer .menuLevel2 SPAN.itemCurrentParent
+{
+	background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-opened-l2-white.gif) no-repeat scroll right center;	
+}
+
+.mainMenuContainer .menuLevel2 SPAN.itemNormalLeaf,
+.mainMenuContainer .menuLevel2 SPAN.itemCurrentLeaf
+{
+	background: transparent;
+}
+
+.mainMenuContainer .mainMenu .menuLevel2 IMG.mainMenuPublicHiddenIcon
+{
+	  margin-left: 0;
+	  top: 1px;
+	  position: absolute;
+	  opacity: 0.50;
+	  -moz-opacity: 0.50;
+	  -khtml-opacity: 0.50;
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+/******* MENU LEVEL 3 *******/
+
+
+.mainMenuContainer .menuLevel3Outer
+{
+	margin: -2px 0 0 40px;
+/	margin: -2px 0 0 20px;
+	background-color: #3E4D55;
+	border: 2px solid #FFFFFF;
+	position: relative;
+	float: left;
+	width: 881px;
+}
+
+HTML > BODY .mainMenuContainer .menuLevel3Outer
+{
+	margin: -2px 0 0 30px;
+}
+
+.mainMenuContainer .menuLevel3Inner
+{
+	float: left;
+	width: 881px;
+}
+
+.mainMenuContainer .menuLevel3Inner .d1,
+.mainMenuContainer .menuLevel3Inner .d3
+{
+	float: left;
+	width: 881px;
+	position: relative;
+}
+
+.mainMenuContainer .menuLevel3Inner .d2
+{
+	float: left;
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-submenu.png', sizingMethod='crop');
+}
+
+HTML > BODY .mainMenuContainer .menuLevel3Inner .d2
+{
+	filter: none;
+	background: url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/bg-submenu.png) left top no-repeat;
+}
+
+.mainMenuContainer .menuLevel3Inner .d1 .d1,
+.mainMenuContainer .menuLevel3Inner .d3 .d3
+{
+	float: none;
+	width: auto;
+	height: auto;
+	position: static;
+}
+
+.mainMenuContainer .menuLevel3Inner .d2 .d2
+{
+	float: none;
+	filter: none;
+}
+
+HTML > BODY .mainMenuContainer .menuLevel3Inner .d2 .d2
+{
+	background: none;
+}
+
+.mainMenuContainer .menuLevel3Inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenuContainer .menuLevel3Inner .inner
+{
+	position: relative;
+	padding: 0 14px;
+}
+
+.mainMenuContainer .menuLevel3Inner .inner .inner,
+.cnPrimaryContentContainer .block .innerContentBlock .mainMenuContainer .menuLevel3Inner .inner .inner
+{
+	position: static;
+	padding: 0;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item
+{
+	padding: 0;
+	float: left;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.separator
+{
+	width: 26px;
+	height: 1px;
+	display: none;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item SPAN
+{
+	padding: 0;
+}
+
+.mainMenuContainer .menuLevel3 SPAN SPAN
+{
+	font-size: 1em;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item SPAN SPAN,
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A
+{
+	display: block;
+	font-size: 0.85em;
+	white-space: nowrap;
+	padding: 7px 21px;
+	height: 16px;
+/	width: 1%;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A
+{
+	text-decoration: none;
+	font-weight: normal;	
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A,
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A:link,
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A:active,
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A:visited
+{
+	color: #B5B8EB;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item SPAN A:hover
+{
+	color: #797FC0;
+	background: transparent;
+}
+
+.mainMenuContainer .menuLevel3 SPAN.item SPAN SPAN
+{
+	color: #FFFFFF;
+}
+
+.mainMenuContainer .mainMenu .menuLevel3 IMG.mainMenuPublicHiddenIcon
+{
+	  margin-left: 0;
+	  top: 1px;
+	  position: absolute;
+	opacity: 0.50;
+	-moz-opacity: 0.50;
+	-khtml-opacity: 0.50;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+/*******************************************************************/
+/******* DYNAMIC MENU                                        *******/
+/*******************************************************************/
+
+.mainMenu TD.itemNormal .dynamicMenuLevelContainer,
+.mainMenu SPAN.itemNormal .dynamicMenuLevelContainer
+{
+  display: block;
+}
+.mainMenu TD.itemNormal .dynamicMenuLevelContainer
+{
+	position: relative;
+}
+.mainMenu TD.itemNormal .dynamicMenuLevelContainer .dynamicMenuLevelContainer
+{
+  position: absolute;
+}
+.mainMenu TD.itemNormal UL.dynamic,
+.mainMenu SPAN.itemNormal UL.dynamic
+{
+  height: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.mainMenu .mainMenuInner TD.itemNormal,
+.mainMenu .mainMenuInner SPAN.itemNormal
+{
+/ margin-bottom: -3px;
+}
+.mainMenu TD.itemNormal UL.dynamic,
+.mainMenu TD.itemNormal TABLE.dynamic
+{
+/  font-size: 1.1em;
+}
+.mainMenu TD UL LI.itemNormal UL.dynamic,
+.mainMenu TD UL LI.itemNormal TABLE.dynamic
+{
+/  font-size: 1.1em;
+}
+
+HTML > BODY .mainMenu TD.itemNormal UL.dynamic,
+HTML > BODY .mainMenu TD.itemNormal TABLE.dynamic
+{
+/  font-size: 1em;
+}
+HTML > BODY .mainMenu TD UL LI.itemNormal UL.dynamic,
+HTML > BODY .mainMenu TD UL LI.itemNormal TABLE.dynamic
+{
+/  font-size: 1em;
+}
+
+
+.mainMenu TD.itemNormal TABLE.dynamic TD
+{
+  position: static;
+}
+
+/******* DYNAMIC MENU LEVEL 2 *******/
+.mainMenu TD.itemNormal:hover UL.dynamic,
+.mainMenu TD.itemNormal A:hover UL.dynamic
+{
+	display: block;
+	left: -2px;
+	top: 0;
+	width: 173px;
+	background: #3E4D55;
+	border: 2px solid #FFFFFF;
+	padding: 7px 0;
+	margin: 6px 0 0 0;
+/	margin: 9px 0 0 -85px;
+}
+
+HTML > BODY .mainMenu TD.itemNormal:hover UL.dynamic,
+HTML > BODY .mainMenu TD.itemNormal A:hover UL.dynamic
+{
+	margin: 6px 0 0 0;
+  /margin-top: 9px;
+}
+
+HTML > BODY .mainMenu TD.itemNormal:hover UL.dynamic UL.dynamic,
+HTML > BODY .mainMenu TD.itemNormal A:hover UL.dynamic UL.dynamic
+{
+	margin: 0;
+  /margin-top: 3px;
+}
+
+
+.mainMenu SPAN.itemNormal UL.dynamic
+{
+	left: 0;
+	top: 0;
+	background: #3E4D55;
+	border: 2px solid #FFFFFF;
+	padding: 7px 0;
+}
+
+.mainMenu TD.itemNormal:hover UL.dynamic LI,
+.mainMenu TD.itemNormal A:hover UL.dynamic LI,
+.mainMenu TD.itemNormal A:hover TABLE.dynamic UL.dynamic LI
+{
+  position: relative;
+  float: left;
+  width: 173px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.mainMenu SPAN.itemNormal UL.dynamic LI
+{
+  position: relative;
+  width: 173px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.mainMenu TD.itemNormal TABLE.dynamic
+{
+	display: block;
+	top: -10px;
+}
+.mainMenu TD.itemNormal A:hover TABLE.dynamic UL.dynamic
+{
+	display: block;
+	left: -5px;
+	top: 5px;
+}
+
+.mainMenu TD.itemNormal UL.dynamic LI.last,
+.mainMenu SPAN.itemNormal UL.dynamic LI.last,
+.mainMenu TD.itemNormal UL.dynamic LI.only,
+.mainMenu SPAN.itemNormal UL.dynamic LI.only
+{
+  padding: 0;
+}
+.mainMenu TD.itemNormal UL.dynamic LI .d1
+.mainMenu SPAN.itemNormal UL.dynamic LI .d1
+{
+  width: auto;
+}
+.mainMenuContainer .mainMenu .menuLevel1 TD.itemNormal UL.dynamic LI .d4,
+.mainMenuContainer .mainMenu .menuLevel1 SPAN.itemNormal UL.dynamic LI .d4,
+.mainMenuContainer .mainMenu .menuLevel1 TD.itemNormal UL.dynamic LI .d5,
+.mainMenuContainer .mainMenu .menuLevel1 SPAN.itemNormal UL.dynamic LI .d5
+{
+  padding: 0;
+}
+.mainMenu TD.itemNormal UL.dynamic LI .d4,
+.mainMenu SPAN.itemNormal UL.dynamic LI .d4
+{
+  background: none;
+}
+
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormal .d5,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormal .d5
+{
+  width: 100%;
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-closed-l2-white.gif) 158px 5px no-repeat;
+}
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormalLeaf .d5,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormalLeaf .d5
+{
+  background: none;
+}
+
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormal .d5 .d5,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormal .d5 .d5
+{
+  width: auto;
+  background: none;
+}
+.mainMenuContainer .mainMenu SPAN.itemNormal UL.dynamic LI A
+{
+  background-image: none;
+}
+
+.mainMenu TD UL.dynamic LI A,
+.mainMenu TD UL.dynamic LI A:link,
+.mainMenu TD UL.dynamic LI A:active,
+.mainMenu TD UL.dynamic LI A:visited,
+.mainMenu TD UL.dynamic LI A:hover,
+.mainMenu TD.itemNormal:hover UL.dynamic LI A,
+.mainMenu TD.itemNormal:hover UL.dynamic LI A:link,
+.mainMenu TD.itemNormal:hover UL.dynamic LI A:active,
+.mainMenu TD.itemNormal:hover UL.dynamic LI A:visited,
+.mainMenu TD.itemNormal:hover UL.dynamic LI A:hover,
+.mainMenu SPAN.itemNormal UL.dynamic LI A,
+.mainMenu SPAN.itemNormal UL.dynamic LI A:link,
+.mainMenu SPAN.itemNormal UL.dynamic LI A:active,
+.mainMenu SPAN.itemNormal UL.dynamic LI A:visited,
+.mainMenu SPAN.itemNormal UL.dynamic LI A:hover
+{
+  display: block;
+  width: 131px;
+  height: auto;
+  margin: 0;
+  padding: 3px 21px 3px 21px;
+  background: transparent;
+  filter: none;
+  font-size: 0.85em;
+  font-weight: normal;
+  color: #B5B8EB;
+  text-decoration: none;
+  text-transform: none;
+  text-align: left;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.mainMenu TD.itemNormal:hover UL.dynamic LI:hover A,
+.mainMenu TD.itemNormal A:hover UL.dynamic LI A:hover,
+.mainMenu SPAN.itemNormal UL.dynamic LI:hover A,
+.mainMenu SPAN.itemNormal UL.dynamic LI A:hover
+{
+  background: transparent;
+  filter: none;
+  color: #797FC0;
+}
+
+/******* System icons *******/
+
+.mainMenuContainer .mainMenu TD UL.dynamic LI .mainMenuPublicHiddenIcon
+{
+  left: 7px;
+  top: 3px;
+}
+.mainMenuContainer .mainMenu TD UL.dynamic LI .menuMemberOnlyIcon
+{
+  left: 7px;
+}
+
+/******* DYNAMIC MENU LEVEL 3 *******/
+
+.mainMenu TD UL LI.itemNormal:hover UL.dynamic,
+.mainMenu TD UL LI.itemNormal A:hover UL.dynamic,
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormal:hover UL.dynamic,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormal:hover UL.dynamic,
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormal A:hover UL.dynamic,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormal A:hover UL.dynamic
+{
+	left: 173px;
+	top: -7px;
+	width: 173px;
+	background: #3E4D55;
+	border: 2px solid #FFFFFF;
+	padding: 7px 0;
+/	margin: 0;
+}
+
+.mainMenu TD UL LI.itemNormal A:hover TABLE.dynamic UL.dynamic,
+.mainMenu TD.itemNormal TABLE.dynamic UL.dynamic LI.itemNormal A:hover TABLE.dynamic UL.dynamic,
+.mainMenu SPAN.itemNormal TABLE.dynamic UL.dynamic LI.itemNormal A:hover TABLE.dynamic UL.dynamic
+{
+	display: block;
+	left: 173px;
+	top: -7px;
+	background: #3E4D55;
+	border: 2px solid #FFFFFF;
+	padding: 7px 0;
+}
+
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormal:hover UL.dynamic,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormal:hover UL.dynamic,
+.mainMenu TD.itemNormal UL.dynamic LI.itemNormal A:hover UL.dynamic,
+.mainMenu SPAN.itemNormal UL.dynamic LI.itemNormal A:hover UL.dynamic,
+.mainMenu TD.itemNormal TABLE.dynamic UL.dynamic LI.itemNormal A:hover TABLE.dynamic UL.dynamic,
+.mainMenu SPAN.itemNormal TABLE.dynamic UL.dynamic LI.itemNormal A:hover TABLE.dynamic UL.dynamic
+{
+	top: -9px;
+}
+
+.mainMenu TD UL LI UL.dynamic LI A,
+.mainMenu TD UL LI UL.dynamic LI A:link,
+.mainMenu TD UL LI UL.dynamic LI A:active,
+.mainMenu TD UL LI UL.dynamic LI A:visited,
+.mainMenu TD UL LI UL.dynamic LI A:hover,
+.mainMenu TD.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A,
+.mainMenu TD.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:link,
+.mainMenu TD.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:active,
+.mainMenu TD.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:visited,
+.mainMenu TD.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:hover,
+.mainMenu SPAN.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A,
+.mainMenu SPAN.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:link,
+.mainMenu SPAN.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:active,
+.mainMenu SPAN.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:visited,
+.mainMenu SPAN.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI A:hover
+{
+  width: 131px;
+  padding: 3px 21px 3px 21px;
+  background: transparent;
+  filter: none;
+  color: #B5B8EB;
+}
+.mainMenu TD.itemNormal:hover UL.dynamic LI.itemNormal:hover UL.dynamic LI:hover A,
+.mainMenu TD.itemNormal A:hover UL.dynamic LI.itemNormal A:hover UL.dynamic LI A:hover
+{
+  background: transparent;
+  filter: none;
+  color: #797FC0;
+}
+
+.mainMenu span.itemNormal .menuLevel3OuterCorners
+{
+	visibility:hidden;
+}
+
+/*** Code for disabling dynamic menu in Aurora themes under IE6 ***/
+
+.cnMainContainer .mainMenu LI.itemNormal .dynamicMenuLevelContainer,
+.cnMainContainer .mainMenu LI.itemNormal UL.dynamic,
+.cnMainContainer .mainMenu LI.itemNormal:hover UL.dynamic,
+.cnMainContainer .mainMenu LI.itemNormal A:hover UL.dynamic,
+.cnMainContainer .mainMenu LI.itemNormal TABLE.dynamic,
+.cnMainContainer .mainMenu TD.itemNormal .dynamicMenuLevelContainer,
+.cnMainContainer .mainMenu TD.itemNormal UL.dynamic,
+.cnMainContainer .mainMenu TD.itemNormal:hover UL.dynamic,
+.cnMainContainer .mainMenu TD.itemNormal A:hover UL.dynamic,
+.cnMainContainer .mainMenu TD.itemNormal TABLE.dynamic,
+.cnMainContainer .mainMenu SPAN.itemNormal .dynamicMenuLevelContainer,
+.cnMainContainer .mainMenu SPAN.itemNormal UL.dynamic,
+.cnMainContainer .mainMenu SPAN.itemNormal:hover UL.dynamic,
+.cnMainContainer .mainMenu SPAN.itemNormal A:hover UL.dynamic,
+.cnMainContainer .mainMenu SPAN.itemNormal TABLE.dynamic
+{
+  -display: none !important;
+}
+.cnMainContainer .mainMenu LI.itemNormal
+{
+  -margin-bottom: 0 !important;
+}
+
+/*******************************************************************/
+/******* SUBMENU AND CONTENT                                             *******/
+/*******************************************************************/
+
+/******* Menu and content main container *******/
+
+.cnContentContainer
+{
+	width: 941px;
+	height: auto;
+}
+
+/******* Menu column container *******/
+
+.cnNavigationContainer
+{
+	width: 200px;
+	
+	float: left;
+}
+
+.subMenuContainer
+{
+	background-color: #3E4D55;
+	float: left;
+	width: 200px;
+}
+
+.subMenuContainerBottomCorners.cornersContainer
+{
+	margin-bottom: 6px;
+}
+
+.subMenuContainerTopCorners.cornersContainer,
+.subMenuContainerBottomCorners.cornersContainer
+{
+	display: block;
+	height: 1px;
+}
+
+.subMenuContainerTopCorners.cornersContainer .c1,
+.subMenuContainerBottomCorners.cornersContainer .c1
+{
+	display: block;
+	margin: 0 1px;
+	background-color: #3E4D55;
+}
+
+.subMenuContainerTopCorners.cornersContainer .c2,
+.subMenuContainerBottomCorners.cornersContainer .c2,
+.subMenuContainerTopCorners.cornersContainer .c3,
+.subMenuContainerBottomCorners.cornersContainer .c3,
+.subMenuContainerTopCorners.cornersContainer .c4,
+.subMenuContainerBottomCorners.cornersContainer .c4,
+.subMenuContainerTopCorners.cornersContainer .c5,
+.subMenuContainerBottomCorners.cornersContainer .c5
+{
+	display: none;
+}
+
+.subMenuContainerTopCorners.cornersContainer,
+.subMenuContainer,
+.subMenuContainerBottomCorners.cornersContainer
+{
+	display: none;
+}
+
+.rootHasSubitems .subMenuContainerTopCorners.cornersContainer,
+.rootHasSubitems .subMenuContainer,
+.rootHasSubitems .subMenuContainerBottomCorners.cornersContainer
+{
+	display: block;
+}
+
+/******* LEFT SUBMENU LEVEL 1 *******/
+
+.subMenu,
+.subMenu UL
+{
+	font-style: normal; 
+	border: none;
+	border-collapse: collapse;    
+	clear: both;
+  background-color: #3E4D55;
+}
+
+.subMenu
+{
+	width: 200px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	color: #B5B8EB;
+}
+
+.subMenu UL
+{
+	list-style-type: none;
+	width: 200px;
+	padding: 16px 0 16px 0;
+	margin: 0;
+	float: left;
+	height: auto;
+}
+
+.subMenu LI 
+{
+	background: #3E4D55 url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/ul-bullet.png) no-repeat 1px 5px;
+	position: relative;
+	width: 159px;
+	height: auto;
+	padding: 0 0 0 15px;
+	margin: 3px 8px 3px 18px;	
+/	margin: 3px 4px 3px 9px;	
+	border: none;
+	float: left;
+}
+
+HTML > BODY .subMenu LI
+{
+	margin: 3px 8px 3px 18px;	
+}
+
+.subMenu LI.itemNormal .d5
+{
+	width: 100%;
+	background: transparent; /* url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-closed-l2-white.gif) 146px center no-repeat;*/
+}
+.subMenu LI.itemCurrent .d5,
+.subMenu LI.itemCurrentParent .d5
+{
+	width: 100%;
+	background: transparent; /* url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/mm-ico-opened-l2-white.gif) 146px center no-repeat;*/
+}
+
+.subMenu LI.itemNormal .d5 .d5,
+.subMenu LI.itemCurrent .d5 .d5,
+.subMenu LI.itemCurrentParent .d5 .d5
+{
+	width: auto;
+	background: none;
+}
+
+.subMenu LI.itemNormal UL LI .d5,
+.subMenu LI.itemCurrent UL LI .d5,
+.subMenu LI.itemCurrentParent UL LI .d5,
+.subMenu LI.itemNormal .d5 .d5,
+.subMenu LI.itemCurrent .d5 .d5,
+.subMenu LI.itemCurrentParent .d5 .d5
+{
+	width: auto;
+	background: none;
+}
+
+.subMenu LI A,
+.subMenu LI A:link,
+.subMenu LI A:active,
+.subMenu LI A:visited,
+.subMenu LI A:hover,
+.subMenu LI SPAN SPAN
+{
+	display: block;
+	width: 120px;
+	height: auto;
+	margin: 0;
+	padding: 0 34px 0 5px;
+	text-decoration: underline;
+	overflow: hidden;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 0.85em;
+	font-weight: normal;
+}
+
+.subMenu LI SPAN 
+{
+	cursor: default;
+}
+.subMenu LI SPAN SPAN
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.subMenu LI A,
+.subMenu LI A:link,
+.subMenu LI A:active,
+.subMenu LI A:visited
+{
+	background-color: #3E4D55;
+	color: #B5B8EB;	
+}
+
+.subMenu LI A:hover
+{
+	color: #797FC0;
+}
+
+.subMenu LI SPAN SPAN
+{
+	background-color: #3E4D55;
+	color: #FFFFFF;
+}
+
+.subMenu LI.itemNormal,
+.subMenu LI.itemNormalLeaf
+{
+	background-color: transparent;
+}
+
+.subMenu LI.itemCurrent,
+.subMenu LI.itemCurrentLeaf,
+.subMenu LI.itemCurrentParent
+{
+	background-color: transparent;
+}
+
+.subMenu .mainMenuPublicHiddenIcon
+{
+	background-position: right top;
+	position: absolute; 
+	top: 3px;
+	width: 35px;
+	right: 0;
+	height: 20px;
+	overflow: hidden;
+	-moz-opacity: 0.50;
+	z-index: 200;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+/******* LEFT SUBMENU LEVEL 2 *******/
+
+.subMenu LI UL
+{
+	width: 150px;
+	padding: 0;
+	border: none;
+	float: left;
+	height: auto;
+	list-style-type: none;
+	margin: 5px 8px 0 0;
+/	margin: 5px 4px 0 0;	
+}
+
+HTML > BODY .subMenu LI UL
+{
+	margin: 5px 8px 0 0;
+}
+
+.subMenu LI UL LI 
+{
+	background: #3E4D55 url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/ul-bullet.png) no-repeat 1px 5px;
+	width: 133px;
+	margin: 2px 0 4px 4px;
+/	margin: 2px 0 4px 2px;	
+	padding: 0 0 0 14px;
+	position: relative;
+	height: auto;
+	border: none;
+	float: left;
+}
+
+HTML > BODY .subMenu LI UL LI 
+{
+	margin: 2px 0 4px 4px;
+}
+.subMenu LI.itemNormal UL LI .d5,
+.subMenu LI.itemCurrent UL LI .d5,
+.subMenu LI.itemCurrentParent UL LI .d5,
+.subMenu LI UL LI.itemNormal .d5,
+.subMenu LI UL LI.itemCurrent .d5,
+.subMenu LI UL LI.itemCurrentParent .d5
+{
+	width: auto;
+	background: none;
+}
+.subMenu LI UL LI A,
+.subMenu LI UL LI A:link,
+.subMenu LI UL LI A:active,
+.subMenu LI UL LI A:visited,
+.subMenu LI UL LI A:hover,
+.subMenu LI UL LI SPAN SPAN
+{
+	width: 114px;
+	padding: 0 14px 0 5px;
+	font-size: 0.85em;
+	font-weight: normal;
+}
+
+.subMenu LI UL LI A,
+.subMenu LI UL LI A:link,
+.subMenu LI UL LI A:active,
+.subMenu LI UL LI A:visited
+{
+	background-color: #3E4D55;
+	color: #B5B8EB;	
+}
+
+.subMenu LI UL LI A:hover
+{
+	color: #797FC0;
+}
+
+.subMenu LI UL LI SPAN SPAN
+{
+	background-color: #3E4D55;
+	color: #FFFFFF;
+}
+
+.subMenu LI LU LI.itemNormal,
+.subMenu LI LU LI.itemNormalLeaf
+{
+	background-color: transparent;
+}
+
+.subMenu LI LU LI.itemCurrent,
+.subMenu LI LU LI.itemCurrentLeaf,
+.subMenu LI LU LI.itemCurrentParent
+{
+	background-color: transparent;
+}
+
+.subMenu LI UL LI SPAN 
+{
+	cursor: default;
+}
+.subMenu LI UL LI SPAN SPAN
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/******* System icons on the 3st menu level items *******/
+
+.subMenuContainer .subMenu LI UL LI .mainMenuPublicHiddenIcon 
+{
+	background-position: right center;
+	position: absolute; 
+	top: 2px;
+/	top: 0;  
+	right: -8px;
+	width: 45px;
+	height: 12px;
+	overflow: hidden;
+	-moz-opacity: 0.50;
+	z-index: 200;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.subMenu LI UL LI .mainMenuPublicHiddenIcon.before
+{
+	display: none;
+}
+
+
+/*******************************************************************/
+/******* CONTENT                                             *******/
+/*******************************************************************/
+
+/******* Content column main container *******/
+
+.cnPrimaryContentContainer
+{
+	display: block;
+	width: 941px;
+	margin: 0;
+	height: auto;
+	float: right;
+	margin-left: 0px;
+/	margin-left: 0px;  
+}
+
+HTML > BODY .cnPrimaryContentContainer
+{
+	margin-left: 0px;	
+}
+
+
+/******* Inner content containers *******/
+
+
+
+.cnPrimaryContentContainer .block .innerContentBlock .inner
+{
+	padding: 0;
+}
+
+
+/******* Container for content editing *******/
+/******* (Specify background color of the content region below) *******/
+
+.cnPrimaryContentBlock1Content,
+.cnPrimaryContentBlock1ContentHolder,
+.cnPrimaryContentBlock1ContentHolderEventAdmin
+{
+	background-color: #FFFFFF;
+}
+
+.cnPrimaryContentBlock1Content
+{
+  width: 939px;
+}
+
+.cnPrimaryContentBlock1Content>DIV
+{
+  padding: 15px;
+}
+
+.cnPrimaryContentBlock1ContentHolder
+{
+  width: 941px;
+}
+
+
+/*******************************************************************/
+/******* FOOTER                                              *******/
+/*******************************************************************/
+
+/******* Footer and content separator container *******/
+
+.cnFooterSeparator
+{
+	display: block;
+	visibility: visible;
+	height: 8px;
+	width: 941px;
+}
+
+/******* Footer main container *******/
+
+.cnFooterContainer
+{
+	background-color: #3E4D55;
+	width: 941px;
+	height: auto;
+	padding: 6px 0;
+}
+
+
+/******* Footer content container *******/
+
+.cnFooterContainer .innerFooterContainer
+{
+	float: left;
+	padding: 5px;
+}
+
+
+.cnFooterContainerTopCorners.cornersContainer,
+.cnFooterContainerBottomCorners.cornersContainer
+{
+	display: block;
+	height: 1px;
+	width: 941px;
+}
+
+.cnFooterContainerTopCorners.cornersContainer .c1,
+.cnFooterContainerBottomCorners.cornersContainer .c1
+{
+	display: block;
+	margin: 0 1px;
+	background-color: #3E4D55;
+}
+
+.cnFooterContainerTopCorners.cornersContainer .c2,
+.cnFooterContainerBottomCorners.cornersContainer .c2,
+.cnFooterContainerTopCorners.cornersContainer .c3,
+.cnFooterContainerBottomCorners.cornersContainer .c3,
+.cnFooterContainerTopCorners.cornersContainer .c4,
+.cnFooterContainerBottomCorners.cornersContainer .c4,
+.cnFooterContainerTopCorners.cornersContainer .c5,
+.cnFooterContainerBottomCorners.cornersContainer .c5
+{
+	display: none;
+}
+
+/******* Editable footer region container *******/
+/******* (Specify default background color for editable region below) *******/
+
+.footerContentHolder
+{
+	width: 931px;
+	height: auto;
+	padding: 0;
+	background-color: transparent;
+}
+
+.footerContent,
+.footerContent TD,
+.footerContent P
+{
+	color: #FFFFFF;
+}
+
+/*******************************************************************/
+/* Footer "Powered By WildApricot" */
+/*******************************************************************/
+.cnFooterPoweredByContainer 
+{
+	clear: both;
+	padding-top: 11px;
+	text-align: right;
+	font-size: 0.85em;
+	width: 100%;
+}
+
+.cnFooterPoweredByWA, 
+.cnFooterPoweredByContainer A, 
+.cnFooterPoweredByContainer A:link,
+.cnFooterPoweredByContainer A:active, 
+.cnFooterPoweredByContainer A:visited, 
+.cnFooterPoweredByContainer A:hover, 
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A, 
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A:link, 
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A:active, 
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A:visited, 
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A:hover
+{
+	color: #CACACA;
+}
+
+.cnFooterPoweredByContainer A:active,
+.cnFooterPoweredByContainer A:hover,
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A:active,
+.cnFooterPoweredByContainer .cnFooterPoweredByWA A:hover
+{
+	color: #ACACAC;
+}
+
+/*******************************************************************/
+/***  EVENTS                                                     ***/
+/*******************************************************************/
+
+/******* Labels and headers colors *******/
+
+
+.cnPrimaryContentContainer .block .WaGadgetEvents .boxContainer .boxFooterOuterContainer .inner ,
+.WaGadgetEvents .boxContainer .boxFooterOuterContainer .inner 
+{
+	width: 1%;
+}
+
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  H4.boxHeaderTitle A,
+.WaGadgetEventsStateList  H4.boxHeaderTitle A,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  H4.boxHeaderTitle A:link,
+.WaGadgetEventsStateList  H4.boxHeaderTitle A:link,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  H4.boxHeaderTitle A:visited,
+.WaGadgetEventsStateList  H4.boxHeaderTitle A:visited
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  .boxFooterContainer A,
+.WaGadgetEventsStateList  .boxFooterContainer A,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  .boxFooterContainer A:link,
+.WaGadgetEventsStateList  .boxFooterContainer A:link,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  .boxFooterContainer A:visited,
+.WaGadgetEventsStateList  .boxFooterContainer A:visited
+{
+	color: #FF0000;
+}
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  H4.boxHeaderTitle A:active,
+.WaGadgetEventsStateList  H4.boxHeaderTitle A:active,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  H4.boxHeaderTitle A:hover,
+.WaGadgetEventsStateList  H4.boxHeaderTitle A:hover,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  .boxFooterContainer A:active,
+.WaGadgetEventsStateList  .boxFooterContainer A:active,
+.cnPrimaryContentBlock1Content .WaGadgetEventsStateList  .boxFooterContainer A:hover,
+.WaGadgetEventsStateList  .boxFooterContainer A:hover
+{
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+.WaGadgetEvents .boxInfoContainer UL.boxInfo LI LABEL
+{
+	color: #999999;
+}
+.WaGadgetEventsStateList .boxInfoContainer UL.boxInfo LI LABEL
+{
+	color: #999999;
+}
+
+.WaGadgetEvents .boxContainer .boxFooterOuterContainer
+{
+	width: auto;
+	right: 0;
+}
+
+/******* EVENT DETAILS *******/
+
+.cnPrimaryContentContainer .block .WaGadgetEventsStateDetails .boxBodyInfoContainer .inner,
+.WaGadgetEventsStateDetails .boxBodyInfoContainer .inner
+{
+	padding: 0;
+}
+
+.cnPrimaryContentContainer .block .WaGadgetEventsStateDetails .boxBodyInfoContainer .d9,
+.WaGadgetEventsStateDetails .boxBodyInfoContainer .d9
+{
+	padding: 7px 10px;
+}
+
+.WaGadgetEventsStateDetails .boxInfoContainer UL.boxInfo LI LABEL
+{
+	color: #555555;
+}
+.WaGadgetEventsStateDetails .boxInfoContainer UL.boxInfo LI SPAN,
+.WaGadgetEventsStateDetails .boxInfoContainer UL.boxInfo LI STRONG
+{
+	color: #000000;
+}
+.WaGadgetEventsStateDetails .registrationInfoContainer UL.registrationInfo,
+.WaGadgetEventsStateDetails .registrationInfoContainer UL.registrationInfo LI LABEL
+{
+	color: #000000;
+}
+.WaGadgetEventsStateDetails .registrationInfoContainer UL.registrationInfo LI.disabled,
+.WaGadgetEventsStateDetails .registrationInfoContainer UL.registrationInfo LI.disabled LABEL
+{
+	color: #999999;
+}
+
+/******* Custom form captions *******/
+
+TABLE#registrationDetailsTable TR.caption TH,
+TABLE#registrationDetailsTable TR.caption TD
+{
+	background-color: #FFFFFF;
+}
+.cnPrimaryContentBlock1Content TABLE#registrationDetailsTable TR.caption TH DIV,
+TABLE#registrationDetailsTable TR.caption TH DIV,
+.cnPrimaryContentBlock1Content TABLE#registrationDetailsTable TR.caption TD DIV,
+TABLE#registrationDetailsTable TR.caption TD DIV
+{
+	background-color: #B2B5DA;
+	border-color: #B2B5DA;
+	color: #000000;
+}
+TABLE#registrationDetailsTable TH,
+TABLE#registrationDetailsTable TH SPAN.mandatory
+{
+	color: #000000;
+}
+
+/******* EVENT CALENDAR VIEW *******/
+
+.EventListCalendar,
+.EventListCalendarItemDefault,
+.EventListCalendarItemHoliday,
+.EventListCalendarItemInactive,
+.EventListCalendarItemSelected
+{
+	border-color: #B2B5DA;
+}
+
+.EventListCalendar
+{
+	border: solid 1px #B2B5DA;
+	width: 903px;
+}
+
+.EventListCalendarHeader
+{
+	border-bottom: solid 1px #B2B5DA;
+	background-color: #B2B5DA;
+}
+
+.EventListCalendarItemDefault
+{
+	border-color: #B2B5DA;
+	border-right: solid 1px #B2B5DA;
+}
+
+.EventListCalendarItemHoliday
+{
+	border-right: solid 1px #B2B5DA;
+}
+
+.EventListCalendarItemInactive
+{
+	border-right: solid 1px #B2B5DA;
+}
+
+.EventListCalendarItemSelected
+{
+	border-right: solid 1px #B2B5DA;
+}
+
+A.calendarDate,
+A.calendarDate:link,
+A.calendarDate:active,
+A.calendarDate:visited,
+A.calendarDate:hover
+{
+	color: #000000;
+}
+
+A.yearViewHeader,
+A.yearViewHeader:link,
+A.yearViewHeader:active,
+A.yearViewHeader:visited,
+A.yearViewHeader:hover
+{
+	background-color: #B2B5DA;
+	color: #000000;
+}
+/******************************************************************/
+/***  REGISTRATIONS LIST                                        ***/
+/******************************************************************/
+.cnContentContainer div#idRegistrationsList  .d1,
+.cnContentContainer div#idRegistrationsList  .d2,
+.cnContentContainer div#idRegistrationsList  .d3,
+.cnContentContainer div#idRegistrationsList  .d4,
+.cnContentContainer div#idRegistrationsList  .inner
+{
+	background-color : #B2B5DA;  
+}
+div#idRegistrationsList table
+{
+	border-left : solid 1px #B2B5DA;
+}
+div#idRegistrationsList table td
+{
+	border-top : solid 1px #B2B5DA;
+	border-right : solid 1px #B2B5DA;
+	border-bottom : solid 1px #B2B5DA;
+}
+div#idRegistrationsList table thead
+{
+	background-color : #B2B5DA;
+}
+/*******************************************************************/
+/***  MEMBERS AND MEMBERS DIRECTORY                              ***/
+/*******************************************************************/
+
+DIV#searchContainer FIELDSET LEGEND
+{
+	color: #777777 !important;
+}
+TABLE.membersTable TH
+{
+	background-color: #B2B5DA;
+	color: #000000;
+}
+.cnPrimaryContentBlock1Content .memberDirectorySearchArea SPAN.searchResult
+{
+	color: #777777;
+}
+.cnPrimaryContentBlock1Content .memberDirectorySearchArea SPAN EM
+{
+	color: #000000;
+}
+.cnPrimaryContentBlock1Content .membersTable TR.hover
+{
+	background-color: #DBDDF5;
+}
+.cnPrimaryContentBlock1Content .membersTable TR.normal
+{
+	background: none;
+}
+.cnPrimaryContentBlock1Content A.back,
+.cnPrimaryContentBlock1Content A.back:link,
+.cnPrimaryContentBlock1Content A.back:active,
+.cnPrimaryContentBlock1Content A.back:visited,
+.cnPrimaryContentBlock1Content .membersTable A,
+.cnPrimaryContentBlock1Content .membersTable A:link,
+.cnPrimaryContentBlock1Content .membersTable A:active,
+.cnPrimaryContentBlock1Content .membersTable A:visited,
+.cnPrimaryContentBlock1Content #criteria A,
+.cnPrimaryContentBlock1Content #criteria A:link,
+.cnPrimaryContentBlock1Content #criteria A:active,
+.cnPrimaryContentBlock1Content #criteria A:visited
+{
+	border-bottom-color: #2253E7;
+	color: #2253E7;
+}
+.cnPrimaryContentBlock1Content A.back:hover,
+.cnPrimaryContentBlock1Content .membersTable A:hover,
+.cnPrimaryContentBlock1Content #criteria A:hover
+{
+	border-bottom-color: #4C79FF;
+	background: none;
+	color: #4C79FF;
+}
+.levelRadio input
+{
+	margin-top : 2px;
+	/ margin-top : -2px;  
+}
+
+/*******************************************************************/
+/***  BLOG                                                       ***/
+/*******************************************************************/
+
+.WaGadgetBlog H4.boxHeaderTitle A,
+.WaGadgetBlog H4.boxHeaderTitle A:link,
+.WaGadgetBlog H4.boxHeaderTitle A:active,
+.WaGadgetBlog H4.boxHeaderTitle A:visited,
+.WaGadgetBlog .boxContainer .boxInfoContainer H5 SPAN.postedByLink A,
+.WaGadgetBlog .boxContainer .boxInfoContainer H5 SPAN.postedByLink A:link,
+.WaGadgetBlog .boxContainer .boxInfoContainer H5 SPAN.postedByLink A:active,
+.WaGadgetBlog .boxContainer .boxInfoContainer H5 SPAN.postedByLink A:visited,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:link,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:link,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:active,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:active,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:visited,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:visited
+{
+	color: #000000;
+}
+.WaGadgetBlog H4.boxHeaderTitle A:hover,
+.WaGadgetBlog .boxContainer .boxInfoContainer H5 SPAN.postedByLink A:hover,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:hover,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogEntryPostedBy:hover
+{
+	color: #333333;
+}
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor:link,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor:link,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor:active,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor:active,
+.WaGadgetBlogStateDetails  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor:visited,
+.WaGadgetBlogStateReply  #idBlogCommentsListContainer .commentViewContainer H5 A.blogCommentAnchor:visited
+{
+	color: #000000;
+}
+
+.WaGadgetBlogStateAddPost .boxHeaderContainer H4.boxHeaderTitle,
+.WaGadgetBlogStateEditPost .boxHeaderContainer H4.boxHeaderTitle
+{
+	color: #000000;
+}
+.WaGadgetBlogStateList .boxOuterContainer,
+.WaGadgetBlogStateDetails .boxOuterContainer,
+.WaGadgetBlogStateReply .boxOuterContainer
+{
+	border-color: #999999;
+}
+.WaGadgetBlogStateAddPost .generalFieldsContainer #idAuthorLabelContainer .fieldSubContainer .fieldBody,
+.WaGadgetBlogStateEditPost .generalFieldsContainer #idAuthorLabelContainer .fieldSubContainer .fieldBody
+{
+	width: 280px;
+}
+.WaGadgetBlogStateAddPost .generalFieldsContainer INPUT.subjectTextBox,
+.WaGadgetBlogStateEditPost .generalFieldsContainer INPUT.subjectTextBox,
+.WaGadgetBlogStateAddPost #idEditorContainer,
+.WaGadgetBlogStateEditPost #idEditorContainer
+{
+	width: 780px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+}
+.WaGadgetBlogStateAddPost #idEditorContainer #idEditorToolbarContainer,
+.WaGadgetBlogStateEditPost #idEditorContainer #idEditorToolbarContainer,
+.WaGadgetBlogStateAddPost #idEditorContainer #idEditorBodyContainer,
+.WaGadgetBlogStateEditPost #idEditorContainer #idEditorBodyContainer,
+.WaGadgetBlogStateAddPost .generalFieldsContainer .textFieldContainer .fieldBody TEXTAREA,
+.WaGadgetBlogStateEditPost .generalFieldsContainer .textFieldContainer .fieldBody TEXTAREA
+{
+	width: 764px;
+}
+
+/*******************************************************************/
+/***  FORUM                                                      ***/
+/*******************************************************************/
+
+/* general styles */
+
+.highlight,
+.WaGadgetForumStateTopicList .boxBodyContainer tr.highlight,
+.WaGadgetForumStateList .boxBodyContainer tr.highlight
+{
+	background-color: #F0F0F0;
+}
+
+.WaGadgetForumStateTopicList .boxBodyContainer TABLE TR TD,
+.WaGadgetForumStateTopicList .boxBodyContainer TABLE TD.threadImageTD,
+.WaGadgetForumStateTopicList .boxBodyContainer TABLE TD.threadTD,
+.WaGadgetForumStateTopicList .boxBodyContainer TABLE TD.lastReplyTD,
+.WaGadgetForumStateMessageList #idMessageListContainer .boxBodyContainer TABLE.forumMessageTable TD.left,
+.WaGadgetForumStateTopicList div
+{
+	border-color: #B2B5DA;
+}
+
+/* topic list */
+
+.WaGadgetForumStateTopicList .boxBodyContainer TABLE TD.lastReplyTD,
+.WaGadgetForumStateTopicList .boxBodyContainer TABLE TD.lastReplyTD .lastReply
+{
+	width: 120px;
+}
+
+/* message list */
+
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote,
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote blockquote,
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote blockquote blockquote blockquote,
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote blockquote blockquote blockquote blockquote blockquote,
+.forumEditEntryEditorContainer blockquote,
+.forumEditEntryEditorContainer blockquote blockquote blockquote,
+.forumEditEntryEditorContainer blockquote blockquote blockquote blockquote blockquote,
+.forumEditEntryEditorContainer blockquote blockquote blockquote blockquote blockquote blockquote blockquote
+{
+	background-color: #DFE1FF;
+	border-left: 3px solid #000B84;
+}
+
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote,
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote blockquote blockquote,
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote blockquote blockquote blockquote blockquote,
+.WaGadgetForumStateMessageList #idMessageListContainer blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote,
+.forumEditEntryEditorContainer blockquote blockquote,
+.forumEditEntryEditorContainer blockquote blockquote blockquote blockquote,
+.forumEditEntryEditorContainer blockquote blockquote blockquote blockquote blockquote blockquote,
+.forumEditEntryEditorContainer blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote
+{
+	background-color: #B5B8EB;
+}
+
+.WaGadgetForum.WaGadgetForumStateEditTopic .generalFieldsContainer INPUT.subjectTextBox,
+.WaGadgetForum.WaGadgetForumStateNewMessage .generalFieldsContainer INPUT.subjectTextBox,
+.WaGadgetForum.WaGadgetForumStateEditMessage .generalFieldsContainer INPUT.subjectTextBox,
+.WaGadgetForum.WaGadgetForumStateAddTopic .generalFieldsContainer INPUT.subjectTextBox
+{
+	width: 802px;
+/	width: 800px;
+}
+
+.WaGadgetForum.WaGadgetForumStateEditTopic #idEditorContainer #idEditorToolbarContainer,
+.WaGadgetForum.WaGadgetForumStateNewMessage #idEditorContainer #idEditorToolbarContainer,
+.WaGadgetForum.WaGadgetForumStateEditMessage #idEditorContainer #idEditorToolbarContainer,
+.WaGadgetForum.WaGadgetForumStateAddTopic #idEditorContainer #idEditorToolbarContainer,
+.WaGadgetForum.WaGadgetForumStateEditTopic #idEditorContainer #idEditorBodyContainer,
+.WaGadgetForum.WaGadgetForumStateNewMessage #idEditorContainer #idEditorBodyContainer,
+.WaGadgetForum.WaGadgetForumStateEditMessage #idEditorContainer #idEditorBodyContainer,
+.WaGadgetForum.WaGadgetForumStateAddTopic #idEditorContainer #idEditorBodyContainer,
+.WaGadgetForum.WaGadgetForumStateEditTopic .generalFieldsContainer .textFieldContainer .fieldBody TEXTAREA,
+.WaGadgetForum.WaGadgetForumStateNewMessage .generalFieldsContainer .textFieldContainer .fieldBody TEXTAREA,
+.WaGadgetForum.WaGadgetForumStateEditMessage .generalFieldsContainer .textFieldContainer .fieldBody TEXTAREA,
+.WaGadgetForum.WaGadgetForumStateAddTopic .generalFieldsContainer .textFieldContainer .fieldBody TEXTAREA
+{
+	width: 788px;
+}
+
+
+/* forum message box */
+
+/* header */
+
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer TD.forumMessageHeaderInfoContainer,
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer TD.forumMessageHeaderBodyContainer
+{
+	color: #000000;
+}
+
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer TD.forumMessageHeaderBodyContainer A,
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer TD.forumMessageHeaderBodyContainer A:active,
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer TD.forumMessageHeaderBodyContainer A:visited,
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer TD.forumMessageHeaderBodyContainer A:hover
+{
+	color: #000000;
+}
+
+.WaGadgetForumStateMessageList #idMessageListContainer .boxHeaderContainer span.actionDivider
+{
+	color: #000000;
+}
+
+/* forum list box */
+
+.WaGadgetForumStateList .boxHeaderContainer TABLE TD.threadTD .thread,
+.WaGadgetForumStateList .boxBodyContainer TABLE TD.threadTD .thread
+{
+	width: 315px;
+}
+
+.WaGadgetForumStateList .boxBodyContainer TABLE TD.pageStateIconTD,
+.WaGadgetForumStateList .boxBodyContainer TABLE TD.threadTD,
+.WaGadgetForumStateList .boxBodyContainer TABLE TD.lastReplyTD,
+.WaGadgetForumStateList .boxBodyContainer TABLE TD.topicsCountTD,
+.WaGadgetForumStateList .boxBodyContainer TABLE TD.repliesCountTD
+{
+	border-color: #B2B5DA;
+}
+
+/*******************************************************************/
+/***  BOXES and CORNERS                                          ***/
+/*******************************************************************/
+
+.boxViewOutline .cornersContainer,
+.boxBodyInfoViewFill .cornersContainer
+{
+	background-color: transparent;
+}
+.cornersContainer .c3,
+.cornersContainer .c4,
+.WaGadgetPublicWizard .infoContainer,
+.publicWizardNameContainer .infoContainer,
+.WaGadgetMembershipApplication .infoContainer,
+.WaGadgetDonationForm .infoContainer,
+.WaGadgetSubscriptionFormStateMain .infoContainer,
+.WaGadgetEventsStateRegistration .infoContainer,
+.cnPrimaryContentContainer .boxViewOutline .boxBodyContainer,
+.boxViewOutline .boxBodyContainer,
+.cnPrimaryContentContainer .boxViewOutline .boxHeaderContainer .d1,
+.boxViewOutline .boxHeaderContainer .d1,
+.cnPrimaryContentContainer .boxViewOutline .boxBodyContainer .d1,
+.boxViewOutline .boxBodyContainer .d1,
+.cnPrimaryContentContainer .boxViewOutline .boxFooterContainer .d1,
+.boxViewOutline .boxFooterContainer .d1
+{
+	border-color: #B2B5DA;
+}
+.cornersContainer .c1,
+.cornersContainer .c2,
+.cornersContainer .c3,
+.cornersContainer .c4,
+.WaGadgetPublicWizard .infoContainer,
+.publicWizardNameContainer .infoContainer,
+.WaGadgetMembershipApplication .infoContainer,
+.WaGadgetDonationForm .infoContainer,
+.WaGadgetEvents .infoContainer,
+.WaGadgetSubscriptionFormStateMain .infoContainer,
+.WaGadgetEventsStateRegistration .infoContainer,
+.generalFieldsContainer .captionContainer,
+.boxViewOutline .boxHeaderContainer,
+.boxViewOutline .boxFooterContainer,
+.boxBodyInfoViewFill .boxBodyInfoContainer
+{
+	background-color: #B2B5DA;
+}
+
+
+.cnPrimaryContentBlock1Content .boxBodyInfoViewFill a,
+.cnPrimaryContentBlock1Content .infoOuterContainer a,
+.cnPrimaryContentBlock1Content .boxBodyInfoViewFill a:hover,
+.cnPrimaryContentBlock1Content .infoOuterContainer a:hover
+{
+	color: #0e75a4;
+}
+
+
+/*******************************************************************/
+/***  WIZARDS                                                    ***/
+/*******************************************************************/
+.generalFieldsContainer .fieldBody .typeInstruction
+{
+	color: #666;
+}
+
+.WaGadgetPublicWizard .infoContainer .infoTitle,
+.publicWizardNameContainer .infoContainer .infoTitle,
+.WaGadgetMembershipApplication .infoContainer .infoTitle,
+.WaGadgetDonationForm .infoContainer .infoTitle,
+.WaGadgetSubscriptionFormStateMain .infoContainer .infoTitle,
+.WaGadgetEventsStateRegistration .infoContainer .infoTitle
+{
+	color: #555555;
+}
+
+.WaGadgetPublicWizard .infoContainer .infoText,
+.publicWizardNameContainer .infoContainer .infoText,
+.WaGadgetMembershipApplication .infoContainer .infoText,
+.WaGadgetDonationForm .infoContainer .infoText,
+.WaGadgetSubscriptionFormStateMain .infoContainer .infoText,
+.WaGadgetEventsStateRegistration .infoContainer .infoText,
+.cnPrimaryContentBlock1Content .generalFieldsContainer .captionContainer H4
+{
+	color: #000000;
+}
+
+.formOuterContainer .formTitleOuterContainer
+{
+	border-bottom: 1px solid #999999;
+}
+.cnPrimaryContentBlock1Content .formOuterContainer .formTitleContainer H3.formTitle,
+.formOuterContainer .formTitleContainer H3.formTitle
+{
+	color: #999999;
+}
+
+.generalFieldsContainer .fieldContainer SPAN.validationError,
+span.mandatorySymbol
+{
+	color: #FF0000;
+}
+
+.navigationOuterContainer
+{
+	border-top: 1px solid #999999;
+}
+
+
+
+
+
+/*******************************************************************/
+/***  ARTBOXES                                                   ***/
+/*******************************************************************/
+
+
+/***  Type 001                                                   ***/
+
+/* corners */
+
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners
+{
+  display: block;
+  float: none;
+  height: 5px;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r1,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r1,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r2,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r2,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r3,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r3
+{
+  height: 5px;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r2,
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r2
+{
+  padding: 0 5px;
+}
+
+/* container */
+
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r1
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cotl.png) left top no-repeat;
+  /*_background: none;*/
+}
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r2
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cotr.png) right top no-repeat;
+  /*_background: none;*/
+}
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r1
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cobl.png) left bottom no-repeat;
+  /*_background: none;*/
+}
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r2
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cobr.png) right bottom no-repeat;
+  /*_background: none;*/
+}
+
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterTopCorners .r3
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cet.png) left top repeat-x;
+  /*_background: none;*/
+}
+DIV.artBoxContainerType-gadgetStyle001 .artBoxOuterBottomCorners .r3
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-ceb.png) left bottom repeat-x;
+  /*_background: none;*/
+}
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b1
+{
+  background: #FFFFFF;
+}
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b2
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cel.png) left top repeat-y;
+  /*_background: none;*/
+}
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b3
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-cer.png) right top repeat-y;
+  /*_background: none;*/
+  padding: 3px 5px;
+}
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b4
+{
+  background: #FFFFFF;
+  padding: 0 3px;
+}
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b5
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-fill.gif) left top repeat;
+  padding: 3px;
+}
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b6
+{
+  background: #FFFFFF;
+}
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b1 .b1,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b2 .b2,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b3 .b3,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b4 .b4,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b5 .b5,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b6 .b6
+{
+  background: none;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b3 .b3,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b4 .b4,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .b5 .b5
+{
+  padding: 0;
+}
+
+/* title */
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .artBoxTitleContainer
+{
+  background: url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-title-fill.gif) bottom left repeat-x;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .artBoxInner
+{
+  padding: 12px 12px 18px 12px;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .artBoxContent,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 H4.artBoxTitle,
+DIV.artBoxContainerType-gadgetStyle001 H4.artBoxTitle
+{
+  color: #000B84; 
+}
+
+/* content */
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxInner
+{
+  padding: 12px 7px; 
+}
+
+/* module */
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 .moduleItem,
+DIV.artBoxContainerType-gadgetStyle001 .moduleItem
+{
+  padding: 5px 6px 7px 6px;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 .moduleSeparator,
+DIV.artBoxContainerType-gadgetStyle001 .moduleSeparator
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox001-sep.gif) left top repeat-x;
+}
+
+
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent  TD,
+DIV.artBoxContainerType-gadgetStyle001 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent  P,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 .itemInfoContainer,
+DIV.artBoxContainerType-gadgetStyle001 .itemInfoContainer
+{
+  color: #000000;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 A:link,
+DIV.artBoxContainerType-gadgetStyle001 A:link,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 A:active,
+DIV.artBoxContainerType-gadgetStyle001 A:active,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 A:visited,
+DIV.artBoxContainerType-gadgetStyle001 A:visited,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 A:hover,
+DIV.artBoxContainerType-gadgetStyle001 A:hover
+{
+  color: #797FC0;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle001 A:hover,
+DIV.artBoxContainerType-gadgetStyle001 A:hover
+{
+  color: #B5B8EB;
+}
+
+
+/***  Type 002                                                   ***/
+
+/* container */
+
+DIV.artBoxContainerType-gadgetStyle002
+{
+  background: #3E4D55;
+}
+
+DIV.artBoxContainerType-gadgetStyle002 .artBoxGlobalInnerContainer
+{
+  padding: 6px;
+}
+
+/* title */
+
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer .artBoxTitleContainer
+{
+  background: #3E4D55;
+}
+
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .artBoxInner
+{
+  padding: 10px 16px 6px 22px;
+}
+
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .artBoxContent,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 H4.artBoxTitle,
+DIV.artBoxContainerType-gadgetStyle002 H4.artBoxTitle
+{
+  color: #FFFFFF; 
+}
+
+/* content */
+
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer .artBoxContentContainer
+{
+  padding: 6px; 
+}
+
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxInner
+{
+  background: #FFFFFF; 
+  padding: 6px;
+}
+
+/* module */
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 .moduleItem,
+DIV.artBoxContainerType-gadgetStyle002 .moduleItem
+{
+  padding: 5px 5px 7px 5px;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 .moduleSeparator,
+DIV.artBoxContainerType-gadgetStyle002 .moduleSeparator
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox002-sep.gif) left top repeat-x;
+}
+
+
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent,
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent  TD,
+DIV.artBoxContainerType-gadgetStyle002 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent  P,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 .itemInfoContainer,
+DIV.artBoxContainerType-gadgetStyle002 .itemInfoContainer
+{
+  color: #000000;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 A:link,
+DIV.artBoxContainerType-gadgetStyle002 A:link,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 A:active,
+DIV.artBoxContainerType-gadgetStyle002 A:active,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 A:visited,
+DIV.artBoxContainerType-gadgetStyle002 A:visited,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 A:hover,
+DIV.artBoxContainerType-gadgetStyle002 A:hover
+{
+  color: #797FC0;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle002 A:hover,
+DIV.artBoxContainerType-gadgetStyle002 A:hover
+{
+  color: #B5B8EB;
+}
+
+
+/***  Type 003                                                   ***/
+
+/* corners */
+
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners
+{
+  display: block;
+  float: none;
+  height: 14px;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r1,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r1,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r2,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r2,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r3,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r3
+{
+  height: 14px;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r2,
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r2
+{
+  padding: 0 14px;
+}
+
+/* container */
+
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r1
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-cotl.png) left top no-repeat;
+  _background: none;
+}
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r2
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-cotr.png) right top no-repeat;
+  _background: none;  
+}
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r1
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-cobl.png) left bottom no-repeat;
+  _background: none;  
+}
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r2
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-cobr.png) right bottom no-repeat;
+  _background: none;  
+}
+
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterTopCorners .r3
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-cet.png) left top repeat-x;
+  _background: none;  
+}
+DIV.artBoxContainerType-gadgetStyle003 .artBoxOuterBottomCorners .r3
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-ceb.png) left bottom repeat-x;
+  _background: none;  
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .b1
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-cer.png) right top repeat-y;
+  _background: none;
+  padding-right: 10px;
+}
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .b1 .b1
+{
+   background: none;
+   padding: 0;
+}
+
+/* inner */
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxInner
+{
+  padding: 0;
+}
+
+/* title */
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .b9
+{
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: #3E4D55; 
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .b9 .b9
+{
+  border: none;
+  background: none;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .artBoxInner
+{
+  padding: 0 21px 12px 21px; 
+  _padding: 12px 21px 12px 21px; 
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer DIV.artBoxTitleInnerContainer  .artBoxContent,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 H4.artBoxTitle,
+DIV.artBoxContainerType-gadgetStyle003 H4.artBoxTitle
+{
+  color: #FFFFFF; 
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners
+{
+  display: block;
+  float: none;
+  height: 12px; 
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners .r1,
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners .r2,
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners .r3,
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners .r4
+{
+  height: 8px;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners .r1
+{
+  height: 9px;
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-title-ceb1.png) right top repeat;
+  _background: none;  
+  padding: 3px 0 0 0;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxTitleBottomCorners .r2
+{
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: #3E4D55; 
+}
+
+/* content */
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .b9
+{
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: #3E4D55; 
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .b9 .b9
+{
+  border: none;
+  background: none;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxInner
+{
+  padding: 8px 12px 20px 12px; 
+}
+
+/* module */
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 .moduleItem,
+DIV.artBoxContainerType-gadgetStyle003 .moduleItem
+{
+  padding: 5px 9px 7px 9px;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 .moduleSeparator,
+DIV.artBoxContainerType-gadgetStyle003 .moduleSeparator
+{
+  background: transparent url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox003-sep.gif) left top repeat-x;
+}
+
+
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent,
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent  TD,
+DIV.artBoxContainerType-gadgetStyle003 DIV.artBoxGeneralInnerContainer .artBoxContentInnerContainer .artBoxContent  P,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 .itemInfoContainer,
+DIV.artBoxContainerType-gadgetStyle003 .itemInfoContainer
+{
+  color: #797FC0;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 A:link,
+DIV.artBoxContainerType-gadgetStyle003 A:link,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 A:active,
+DIV.artBoxContainerType-gadgetStyle003 A:active,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 A:visited,
+DIV.artBoxContainerType-gadgetStyle003 A:visited,
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 A:hover,
+DIV.artBoxContainerType-gadgetStyle003 A:hover
+{
+  color: #FFFFFF;
+}
+
+.cnPrimaryContentBlock1Content DIV.artBoxContainerType-gadgetStyle003 A:hover,
+DIV.artBoxContainerType-gadgetStyle003 A:hover
+{
+  color: #B5B8EB;
+}
+
+
+/*** Donation Gadgets ***/
+
+.artBoxContainer TABLE.donationGoalTable TD.donationGoalProgressBarLeftPart
+{
+  background: #999999 url(/BuiltTheme/aurora_horizontal_dark_blue.v1.0/0a2110ce/images/artbox-percentage-left.gif) center center repeat-x;
+}
+
+/*** 001 ***/
+
+DIV.artBoxContainerType-gadgetStyle001 SPAN.donationGoalCollectedTitle,
+DIV.artBoxContainerType-gadgetStyle001 SPAN.donationGoalAmountTitle
+{
+  color: #444B9C;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 SPAN.donationGoalCollectedValue,
+DIV.artBoxContainerType-gadgetStyle001 SPAN.donationGoalAmountValue
+{
+  color: #3E4D55;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 TABLE.donationGoalTable TD.donationGoalPercentageContainer
+{
+  color: #000000;
+}
+
+DIV.artBoxContainerType-gadgetStyle001 .donationGoalPeriodContainer
+{
+  color: #797FC0;
+}
+
+/*** 002 ***/
+
+DIV.artBoxContainerType-gadgetStyle002 SPAN.donationGoalCollectedTitle,
+DIV.artBoxContainerType-gadgetStyle002 SPAN.donationGoalAmountTitle
+{
+  color: #444B9C;
+}
+
+DIV.artBoxContainerType-gadgetStyle002 SPAN.donationGoalCollectedValue,
+DIV.artBoxContainerType-gadgetStyle002 SPAN.donationGoalAmountValue
+{
+  color: #3E4D55;
+}
+
+DIV.artBoxContainerType-gadgetStyle002 TABLE.donationGoalTable TD.donationGoalPercentageContainer
+{
+  color: #000000;
+}
+
+DIV.artBoxContainerType-gadgetStyle002 .donationGoalPeriodContainer
+{
+  color: #797FC0;
+}
+
+/*** 003 ***/
+
+DIV.artBoxContainerType-gadgetStyle003 SPAN.donationGoalCollectedTitle,
+DIV.artBoxContainerType-gadgetStyle003 SPAN.donationGoalAmountTitle
+{
+  color: #00809F;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 SPAN.donationGoalCollectedValue,
+DIV.artBoxContainerType-gadgetStyle003 SPAN.donationGoalAmountValue
+{
+  color: #FFFFFF;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 TABLE.donationGoalTable TD.donationGoalPercentageContainer
+{
+  color: #BDEAFF;
+}
+
+DIV.artBoxContainerType-gadgetStyle003 .donationGoalPeriodContainer
+{
+  color: #797FC0;
+}
+
+.loginContainer
+{
+  min-width: 200px;
+}
+
+/* ---- Gadget Site search ----- */
+
+.WaGadgetSiteSearch.gadgetStyle003 .autoSuggestionBox
+{
+	background: #3E4D55;
+}

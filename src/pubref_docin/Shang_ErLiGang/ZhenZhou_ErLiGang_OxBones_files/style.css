@@ -1,0 +1,225 @@
+body {
+ margin: 0px;
+ font-family: simsun,verdana;
+ font-size: 12px;
+ background-color: #ffffff;
+}img{border:0;}
+td{
+ font-family:simsun,verdana;
+ font-size: 10pt;
+}
+a:link {
+ text-decoration: none;
+}
+.butOn {
+ background-color: #ededed;
+ color: #000000;
+ height:25px;
+ font-weight: nomal;
+ border-top-width: 1px;
+ border-right-width: 1px;
+ border-left-width: 1px;
+ border-top-style: solid;
+ border-right-style: solid;
+ border-bottom-style: none;
+ border-left-style: solid;
+ border-top-color: #999999;
+ border-right-color: #999999;
+ border-left-color: #999999;
+}
+.butOff {
+ background-color: #999999;
+ color: #FFFFFF;
+ height:25px;
+ cursor: hand;
+ border-bottom-style: solid;
+ border-bottom-color: #999999;
+ border-bottom-width: 1px;
+}
+.settd{
+ background-color: #ededed; 
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-left-width: 1px;
+ border-top-style: none;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-left-style: solid;
+ border-top-color: #999999;
+ border-right-color: #999999;
+ border-bottom-color: #999999;
+ border-left-color: #999999;
+ padding: 5px;
+ line-height: 150%;
+}
+a:link {
+ text-decoration: underline;
+ color: #333333;
+}
+a:visited {
+ text-decoration: none;
+ color: #333333;
+}
+a:hover {
+ color: #ffffff;
+ background-color:#cdcdcd;
+ text-decoration: underline;
+}
+a:active {
+ text-decoration: none;
+ color: #fff; background-color:#cdcdcd;
+}
+.ar{
+ font-size: 11px;
+ color: #999900;
+}
+.table_title{
+font-size:12px;
+height:25px;
+color:#ffffff;
+background-color:#999999;
+}
+.table_main{
+font-size:12px;
+background-color:#ededed;
+border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-left-width: 1px;
+ border-top-style: none;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-left-style: solid;
+ border-right-color: #999999;
+ border-bottom-color: #999999;
+ border-left-color: #999999;
+
+}
+
+.nav a:hover{
+	background-color:#EEE;
+	border-color:#BBBBBB #FFFFFF #FFFFFF #BBBBBB;
+	border-style:solid;
+	border-width:1.5px 0px 0px 1.5px;
+	padding:2px;
+	text-decoration:none;
+	}
+
+.nav a{
+	background-color:white;
+	border-color:#EEEEEE #CCCCCC #CCCCCC #EEEEEE;
+	border-style:solid;
+	border-width:1px 1.5px 1.5px 1px;
+	padding:2px;
+	text-decoration:none;
+	}
+
+.nva a:active{
+	border:1px solid #ddd; 
+	background-color:white;
+	padding:2px;
+	text-decoration:none;
+	}
+
+
+p{font-family:"verdana";font-size:12pt;color:000000; text-indent:2em;line-height:150%}
+
+div{font-family:"verdana";font-size:10pt;color:000000; text-indent:0;line-height:150%}
+
+.banner
+{font-family:simsun,verdana;
+font-size:11pt;
+color:#525252;
+bgcolor:#cccccc;
+font-weight:normal;}
+
+.ptitle
+{font-family:simsun,verdana;
+font-size:20pt;
+font-weight:bold;
+word-spacing:1em;
+color:#202020;
+text-indent:0;}
+
+.pauthor
+{font-family:verdana;
+font-size:11pt;
+color:#343434;
+text-indent:0; }
+
+.preface
+{font-family:"verdana";
+font-size:9pt;
+color:#666666;
+text-decoration:underline;
+text-indent:0em;
+line-height:150%;}
+
+.bugao
+{font-family:"verdana";
+font-size:9pt;
+color:#000000;
+text-decoration:underline;
+text-indent:0em;
+line-height:150%;}
+
+.h1
+{font-family:宋体;
+font-size:11pt;
+font-weight:normal;
+word-spacing:1pt;
+line-height:180%;
+border:1 solid #525252 #525252;}
+
+.h2
+{font-family:verdana,宋体;
+font-size:11pt;
+color:#000000;
+font-weight:normal;
+background-color:#ededed;
+word-spacing:1pt;
+line-height:150%;
+border:1 solid #525252 #525252;}
+
+.h3
+{font-family:verdana;
+font-size:9pt;color:#000000;
+text-decoration:none;
+text-indent:0;
+line-height:150%;
+border-left:1 solid #525252 #525252;border-right:1 solid #525252 #525252;border-bottom:1 solid #525252 #525252;}
+
+.h4
+{font-family:verdana,宋体;
+font-size:9pt;color:#000000;
+text-decoration:none;
+text-indent:0;
+line-height:150%}
+
+.h5
+{font-family:verdana,宋体;
+font-size:10pt;
+font-weight:normal;
+color:#000000;
+background-color:#ededed;
+word-spacing:1pt;line-height:180%;
+FILTER:dropshadow(color=#ffffff,offx=1,offy=1);
+border-top:1 solid #cccccc #cccccc;border-bottom:1 dotted #cccccc;}
+
+//.h6
+//{border-bottom:1 dotted #cccccc;}
+
+.h7
+{font-family:宋体;
+font-size:11pt;
+font-weight:normal;
+word-spacing:1pt;
+line-height:180%;
+border-top:1 solid #525252 #525252;}
+
+.h8
+{font-family:宋体;
+font-size:11pt;
+font-weight:normal;
+word-spacing:1pt;
+line-height:180%;
+border-bottom:1 solid #525252 #525252;}

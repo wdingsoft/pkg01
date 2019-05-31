@@ -1,0 +1,91 @@
+.widgetMode div#idClipMainContainer div#idMainContainer div#idHeaderContainer, 
+.widgetMode div#idClipMainContainer div#idMainContainer div#idFooterContainer,
+.widgetMode div#idClipMainContainer div#idMainContainer div#idFooterPoweredByContainer,
+.widgetMode div#idClipMainContainer div#idMainContainer div#idContentContainer div#idNavigationContainer,
+.widgetMode div#idClipMainContainer div#idMainContainer div#idContentContainer div#idNavigationContainer div#idLoginContainer,
+.widgetMode div#idClipMainContainer div#idMainContainer div#idContentContainer div#idNavigationContainer div#idMainMenuContainer
+{
+    display:none;
+}
+
+/* Member directory advanced search >>> */
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.fieldContainer
+{
+	float: left;
+	width: 50%;
+	padding: 2px 0;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.fieldContainer div.fieldLabel
+{
+	width: 100%;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem table
+{
+	width: 95%;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem div.fieldBody
+{
+	width: 95%;
+	padding-left: 5%;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem div.fieldBody select,
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem div.dropdownFieldContainer div.fieldBody select
+
+{
+	width: 100%;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem table td.left, DIV.generalFormContainer DIV.criteriaListItem table td.right
+{
+	width: 50%;
+}
+
+.widgetMode div.generalFormContainer div.criteriaListItem div.valueContainer
+{
+	width: 45%;
+}
+
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.conditionsColumn SELECT
+{
+	width: 100px;
+	cursor: pointer;
+}
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.valueContainer DIV.fieldContainer 
+{
+	float: left;
+	width: 100%;
+}
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.valueContainer SELECT
+{
+	width: auto;
+}
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.valueContainer INPUT.typeText
+{
+	width: 180px;
+}
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.valueSelectorContainer DIV.groupContainer DIV.groupBodyVertical DIV.fieldItem
+{
+	width: 100%;
+}
+.widgetMode DIV.generalFormContainer DIV.criteriaListItem DIV.valueSelectorContainer DIV.groupContainer DIV.groupBodyVertical DIV.fieldItem SPAN.label
+{
+	width: auto;
+	white-space: nowrap;
+}
+.widgetMode div.generalFieldsContainer DIV.selectedCriteriaListInnerContainer div.simpleTextContainer div.labeledTextContainer div.fieldBody
+{
+	width: 230px;
+}
+/* Member directory advanced search <<< */
